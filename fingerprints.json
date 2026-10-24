@@ -1,0 +1,14 @@
+{
+ "entries": [
+  {
+   "date": "2026-10-24",
+   "sha256": "0370889815ddcb860313239ce62394eb15e78bfe086aea8ba402aad0a1d4144a",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "note": "First public fingerprint. Calls S01-S12 made 21 Oct 2026; S04 entered 23 Oct."
+  }
+ ]
+}

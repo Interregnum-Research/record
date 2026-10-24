@@ -1,0 +1,253 @@
+{
+ "calls": [
+  {
+   "call": "BUY",
+   "horizon": "trend",
+   "id": "S01",
+   "legs": [
+    {
+     "entry": 270.74,
+     "ticker": "CEG"
+    },
+    {
+     "entry": 156.14,
+     "ticker": "VST"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "at risk 23 Oct: avg -7.8% after the 22 Oct AI selloff (CEG 255.21, VST 140.83); stop at -12%; PJM monitor says 42% of forecast DC load delayed; hold, no add",
+   "prob": 0.7,
+   "resolves": "2026-12-15",
+   "status": "entered",
+   "stop_pct": 12
+  },
+  {
+   "call": "BUY",
+   "horizon": "structural",
+   "id": "S02",
+   "legs": [
+    {
+     "entry": 925.92,
+     "ticker": "GEV"
+    },
+    {
+     "entry": 133.64,
+     "ticker": "ENR.DE"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "at risk 23 Oct: avg -10.4% (GEV 827.42, ENR 120.18); GE Vernova Q3 is 28 Oct 07:30 ET (calendar corrected); exit condition unchanged (backlog <100 GW)",
+   "prob": 0.65,
+   "resolves": "2027-12-31",
+   "status": "entered",
+   "stop_pct": 15
+  },
+  {
+   "call": "AVOID, conditional BUY",
+   "horizon": "event",
+   "id": "S03",
+   "legs": [
+    {
+     "entry": null,
+     "ticker": "CRWV"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "CRWV 55.60 (22 Oct); unsecured 2031 yield 15.76%, CDS 1,115bp; conditional-buy trigger (>16% after calls) not yet met; MSFT/GOOGL 28 Oct, AMZN 30 Oct",
+   "prob": 0.75,
+   "resolves": "2026-10-30",
+   "status": "waiting (hyperscaler calls 28-30 Oct)",
+   "stop_pct": 20
+  },
+  {
+   "call": "PAIR short WIT / long TCS",
+   "horizon": "trend",
+   "id": "S04",
+   "legs": [
+    {
+     "entry": 2.19,
+     "side": "short",
+     "ticker": "WIT"
+    },
+    {
+     "entry": 2530,
+     "ticker": "TCS.NS"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "Infosys Q2 23 Oct: FY27 guide cut to 1-2% on pricing pressure; Wipro weakest (large deals -59% QoQ, headcount -6,716), TCS strongest; entries marked at 23 Oct close WIT 2.19 / TCS 2,530 for scoring; 65% keeps it below the publication line",
+   "prob": 0.65,
+   "resolves": "2027-04-30",
+   "status": "entered 2026-10-23 (Infosys condition met); below 70% line, scenario-sized",
+   "stop_pct": 10
+  },
+  {
+   "call": "BUY small, dated (ASYMMETRIC)",
+   "horizon": "event",
+   "id": "S05",
+   "legs": [
+    {
+     "entry": 39.5,
+     "ticker": "MP"
+    },
+    {
+     "entry": 11.38,
+     "ticker": "LYC.AX"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "No extension of MOFCOM No. 70 of 2025 gazetted as of 23 Oct; lapse 10 Nov live in law; reported 90-day extension unverified; avg -4.1%",
+   "prob": 0.35,
+   "resolves": "2026-11-11",
+   "status": "entered",
+   "stop_pct": 20
+  },
+  {
+   "call": "HOLD / buy in thirds",
+   "horizon": "trend",
+   "id": "S06",
+   "legs": [
+    {
+     "entry": 913.67,
+     "ticker": "MU"
+    },
+    {
+     "entry": 1216000,
+     "ticker": "000660.KS"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "22 Oct: Taichung union signed quarterly profit-share formula (21 Oct); Taoyuan rejected ~70%, talks 27 Oct; scored partial for the formula thesis; MU -6.3%, Hynix +5.0%",
+   "prob": 0.55,
+   "resolves": "2027-04-30",
+   "status": "entered",
+   "stop_pct": 15
+  },
+  {
+   "call": "BUY",
+   "horizon": "structural",
+   "id": "S07",
+   "legs": [
+    {
+     "entry": 249.1,
+     "ticker": "SU.PA"
+    },
+    {
+     "entry": 108.35,
+     "ticker": "PRY.MI"
+    },
+    {
+     "entry": 122,
+     "ticker": "NEX.PA"
+    },
+    {
+     "entry": 131.3,
+     "ticker": "LR.PA"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "at risk 23 Oct: avg -7.6% (SU 230.85, PRY 98.14, NEX 113.20, LR 123.00); Codelco EU copper premium record $350/t for 2027; Denmark ranks DCs last in grid allocation; gigafactory bids close 12 Nov",
+   "prob": 0.7,
+   "resolves": "2027-10-21",
+   "status": "entered",
+   "stop_pct": 15
+  },
+  {
+   "call": "AVOID duration",
+   "horizon": "event",
+   "id": "S08",
+   "legs": [
+    {
+     "entry": 5.15,
+     "ticker": "^TNX"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "10-year 4.96% on 22 Oct, first close below 5% since 22 Sep, on the AI selloff not a capex cut; scenario stands to hyperscaler calls 28-30 Oct; Polymarket Fed 28 Oct no change 92.5%, Dec hike 72.5%",
+   "prob": 0.75,
+   "resolves": "2026-10-30",
+   "status": "scenario (no position)",
+   "stop_pct": null
+  },
+  {
+   "call": "BUY in halves",
+   "horizon": "structural",
+   "id": "S09",
+   "legs": [
+    {
+     "entry": 16.2,
+     "ticker": "UMG.AS"
+    },
+    {
+     "entry": 115.26,
+     "ticker": "TRI"
+    },
+    {
+     "entry": 2973,
+     "ticker": "REL.L"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "RELX Legal +10% (22 Oct), Protege >50% US adoption with spend uplift; Meta ordered to name who approved torrenting (19 Oct); avg +2.8%",
+   "prob": 0.6,
+   "resolves": "2028-04-21",
+   "status": "entered",
+   "stop_pct": 15
+  },
+  {
+   "call": "AVOID",
+   "horizon": "structural",
+   "id": "S10",
+   "legs": [
+    {
+     "entry": 4.97,
+     "ticker": "COUR"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "Korea and UK universities move to invigilated exams (Konkuk 23 Oct; ISE evidence); COUR 5.07",
+   "prob": 0.6,
+   "resolves": "2027-10-21",
+   "status": "scenario (no position)",
+   "stop_pct": null
+  },
+  {
+   "call": "BUY after 15 Nov",
+   "horizon": "structural",
+   "id": "S11",
+   "legs": [
+    {
+     "entry": null,
+     "ticker": "BABA"
+    },
+    {
+     "entry": null,
+     "ticker": "0700.HK"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "MOFCOM spokesperson 21 Oct: API/SaaS/on-device use outside the weights controls; own overseas cloud auto-licensed; BABA 101.82 / 0700 386.00; waiting",
+   "prob": 0.55,
+   "resolves": "2027-11-15",
+   "status": "waiting (MOFCOM 15 Nov)",
+   "stop_pct": 15
+  },
+  {
+   "call": "HOLD",
+   "horizon": "trend",
+   "id": "S12",
+   "legs": [
+    {
+     "entry": 417,
+     "ticker": "UNH"
+    }
+   ],
+   "made": "2026-10-21",
+   "note_2026-10-23": "Elevance 21 Oct: benefit expense ratio 90.6%, AI claims review, days in claims payable +3.5; Molina silent on AI; UNH 424.98 +1.9%",
+   "prob": 0.55,
+   "resolves": "2027-04-30",
+   "status": "entered",
+   "stop_pct": 15
+  }
+ ]
+}
