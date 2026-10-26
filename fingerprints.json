@@ -2,13 +2,24 @@
  "entries": [
   {
    "date": "2026-10-24",
-   "sha256": "0370889815ddcb860313239ce62394eb15e78bfe086aea8ba402aad0a1d4144a",
    "files": [
     "calls.json",
     "record.md",
     "scorecard.csv"
    ],
-   "note": "First public fingerprint. Calls S01-S12 made 21 Oct 2026; S04 entered 23 Oct."
+   "note": "First public fingerprint; pushed to github.com/Interregnum-Research/record as commit e540236 on 24 Oct 2026.",
+   "sha256": "0370889815ddcb860313239ce62394eb15e78bfe086aea8ba402aad0a1d4144a"
+  },
+  {
+   "date": "2026-10-26",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "e5bee536ef1e5c1dcc80c1075eb2d699c17f4cadf841a740582dd08ccb24e3d2",
+   "published_sha256": "c9efa5dc1b22c5980ff863cd33230b29db033db14e1c44035cb11ab464b0df00",
+   "note": "Published 26 Oct from a second session after the scheduled run's push was refused. The engine's own hash (sha256) could not be reproduced byte-for-byte from the stored files; published_sha256 is the hash of calls.json, record.md and scorecard.csv exactly as committed here."
   }
  ]
 }

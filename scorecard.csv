@@ -1,1 +1,1 @@
-id,call,ticker,side,currency,entry,close_price,return_pct,days_held,probability,horizon,result,closed_on,reason,made
+id,call,ticker,side,currency,entry,close_price,return_pct,days_held,probability,prob_cal,market_prob,horizon,catalyst_type,chain_length,evidence,mechanism,reach,surprise,persistence,domain,channel,result,closed_on,reason,post30_return,made

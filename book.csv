@@ -1,1 +1,2 @@
 date,book_value,day_return_pct,total_return_pct,drawdown_pct,gross_exposure_pct,net_exposure_pct,events_return_pct,trends_return_pct,structural_return_pct,top_theme,top_theme_pct,high_corr_pairs,open_positions,sizing_state
+2026-10-26,100.172,0.172,0.172,0.0,35.62,30.62,0.01,0.0072,0.1551,licensing and content,5.0,CEG/VST 0.84;GEV/ENR.DE 0.77;GEV/PRY.MI 0.76;ENR.DE/PRY.MI 0.86;ENR.DE/NEX.PA 0.78;ENR.DE/LR.PA 0.82;SU.PA/NEX.PA 0.71;PRY.MI/NEX.PA 0.82;PRY.MI/LR.PA 0.83;NEX.PA/LR.PA 0.74,18,normal
