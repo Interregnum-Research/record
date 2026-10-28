@@ -17,9 +17,31 @@
     "record.md",
     "scorecard.csv"
    ],
-   "sha256": "e5bee536ef1e5c1dcc80c1075eb2d699c17f4cadf841a740582dd08ccb24e3d2",
+   "note": "Published 26 Oct from a second session after the scheduled run's push was refused. The engine's own hash (sha256) could not be reproduced byte-for-byte from the stored files; published_sha256 is the hash of calls.json, record.md and scorecard.csv exactly as committed here.",
    "published_sha256": "c9efa5dc1b22c5980ff863cd33230b29db033db14e1c44035cb11ab464b0df00",
-   "note": "Published 26 Oct from a second session after the scheduled run's push was refused. The engine's own hash (sha256) could not be reproduced byte-for-byte from the stored files; published_sha256 is the hash of calls.json, record.md and scorecard.csv exactly as committed here."
+   "sha256": "e5bee536ef1e5c1dcc80c1075eb2d699c17f4cadf841a740582dd08ccb24e3d2"
+  },
+  {
+   "date": "2026-10-27",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text; the same bytes are committed to github.com/Interregnum-Research/record. Not published on the day: the scheduled run's push was refused, and the 27 Oct files were superseded by the 28 Oct run before they could be published from another session. This hash is the engine's record of that day's files; the files themselves are not in this repository.",
+   "sha256": "595070394cf8f08cec7b63ad65f5ea37527768bd012778997aaebd97fb7f4e90"
+  },
+  {
+   "date": "2026-10-28",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text; the same bytes are written to github.com/Interregnum-Research/record (push status in the runlog).",
+   "sha256": "b50a6740411f39d92acba5c49c1641c7e2345a77ac06ade21597b398b57f0ca3",
+   "published_sha256": "05f4e61582d7483e0be2e818809d95970d4c46aa22c0b3dd2bab16886f0e9ce9",
+   "published_note": "Pushed 28 Oct (afternoon, Pacific) from a second session after the scheduled run's push was refused. The engine's hash could not be reproduced byte-for-byte; published_sha256 is the hash of the files as committed."
   }
  ]
 }
