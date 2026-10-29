@@ -1,6 +1,6 @@
 # The record (signals layer). Every published call, scored on resolution. Brier score at top once 30 resolve.
 
-Brier score: n/a (0 resolved). Prices via Yahoo chart API, pulled 2026-10-28 ~13:00 UTC (US closes of 27 Oct; Europe/Asia 28 Oct). Polymarket (read 28 Oct): Fed 28 Oct no change 94.8%, +25bp 4.9%; December +25bp 75.5%; midterms Democratic House 91.5%, Senate 66.5%.
+Brier score: n/a (0 resolved). Prices via Yahoo chart API, pulled 2026-10-29 ~13:10 UTC (US closes of 28 Oct; Europe/Asia 29 Oct). Polymarket (read 29 Oct): December +25bp 77.5%, no change 20.5%; another hike in 2026 77.5%; midterms Democratic House 92.5%, Senate 67.5%.
 
 | id | made | call | instrument | probability | timeframe | resolves on | exit condition | result | note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,3 +47,53 @@ Resolutions: none due (S03 and S08 resolve on the Amazon call, 30 Oct; the Fed d
 Thresholds: T06 10-year 5.00% at the line into the Fed; T11 updated to 122 GW with reservations falling; T25 Meta equity leg confirmed ($25bn forward sale plus $12.5bn 6.50% mandatory convertible, 26 Oct); T31 annotated with the Ohio Supreme Court shield for moratoria; new rows T35 (GE Vernova gross new signings per quarter, line 13 GW) and T36 (Nvidia CDS above Meta's, crossed 26 Oct).
 Paper book: value 101.49 (+0.84% on the day, +1.49% since 26 Oct), drawdown 0.0%, 18 legs, gross 35.6%, net 30.6%; no entries or exits; sleeves events +0.07%, trends +0.65%, structural +0.77%.
 No new call proposed: the strongest new signals (Meta's forward sale and preferred; GE Vernova's falling reservation book; the WISeR fade; New York's sycophancy statute; the Dutch 25,000 target) carry no dated binary the engine can state at >=70% or as a small asymmetric; Samsung's 30 Oct print and the hyperscaler calls tonight may change that.
+
+### 2026-10-29 (Thursday run)
+Tracker: every entered trade on track. S01 (avg +1.5%; CEG 258.08, VST 142.72, 28 Oct close; DOE $5bn conditional loan for Constellation uprates); S02 (avg +9.6%; GEV 878.03, ENR 135.36 EUR; the GE Vernova Q&A: new reservations 8 GW against 19 and 18 GW in Q1 and Q2, +50% per kW, no cancellations); S04 (+1.0%; WIT 2.06 short, TCS 2,478 INR); S05 (+13.4%; MP 41.06, LYC 13.03 AUD; Lynas built ~1,200 t of inventory at a record price); S06 (+14.9%; MU 983.23, Hynix 1,526,000 KRW; the KRW 10tn employee tranche sized at ~206 shares a head); S07 (+10.7%; SU 248.40, PRY 114.80, NEX 128.50, LR 134.40 EUR); S09 (-3.2%; UMG 15.83 EUR, TRI 116.09, REL 2,911p); S12 (-2.8%; UNH 407.10); S03 waiting (CRWV 63.93, -6% pre-market after Microsoft's third-party delivery slip); S11 waiting (BABA 100.96, 0700 377.60 HKD); S08 scenario (10y 5.04% close, 5.01% morning; Fed held 10-2 with two hike dissents); S10 scenario (COUR 4.70). No stop hit, no exit condition met, no trade closed, no probability changed.
+Resolutions: none due; S03 and S08 resolve on the Amazon call (30 Oct, after the close). Calendar 28 Oct: Microsoft (capex $45.2bn, third-party deliveries slipped to H2, calendar ~$170bn, leasing not bonds, no Copilot seat count) and Alphabet (FCF -$9.1bn, $924bn purchase commitments, 2027 capex 'significantly' higher): no capex cut, so S08 stands and S03's second condition (a >16% unsecured print) is unverified; UK Budget delivered with a Data Centre Covenant and a draft National Policy Statement for data centres (consultation to 8 Jan 2027).
+Thresholds: T06 10-year crossed above 5% (5.04% close); T25 two of four hyperscalers FCF-negative; T31 corrected to the National League of Cities count (at least 76 localities; the '925' withdrawn) with San Diego added; T35 new reservations 8 GW; new rows T37 (hyperscalers with negative FCF, 2 of 4, line 3), T38 (Microsoft Copilot seats withdrawn), T39 (data-centre CMBS AAA spread versus other property, +60bp year to date).
+Options: live chains read at ~13:50 UTC after the feed returned no bid or ask before 13:45; Constellation's option and spread opened today (ask $16.60; spread $10.70); the Wipro put is too thin (shares only).
+Paper book: value 101.66 (+0.31% on the day, +1.66% since 26 Oct), drawdown 0.0%, 18 legs, gross 35.6%, net 30.6%; sleeves events +0.08, trends +0.70, structural +0.84 points; S&P 500 101.37 and the AI basket 103.65 rebased to the 26 Oct open; trades only +4.57% on capital deployed; cash 66.9% at 4.00%.
+Gaps: G-2026-10-03 (tenant commitment risk in data-centre credit, Open, 50%) and G-2026-10-04 (coding-drift audit for AI-documented encounters, Stirring, 45%) named; G-02 logged its first incumbent move (k-ID Kai, 27 Oct) and stays at Stirring; G-01 stays Open. Policy: two effect predictions added (E-09 rare-earth front-loading, E-10 PJM registry versus forecast); rules R21 to R23 added (Pennsylvania curtail-first, Ofgem self-build, Treasury COINS); the UK draft NPS opened a window to 8 Jan 2027.
+No new trade proposed: the strongest new signals (Alphabet's $1.08tn of commitments; the Fed's split; the DOE as lender; the SK hynix employee bloc; GE Vernova's price-cleared queue) carry no dated binary the engine can state at >=70% or as a small asymmetric; Amazon tonight and Samsung tomorrow are the next tests.
+
+## Gap calls
+
+Rebuilt every run from the gap record; fingerprinted with the trades.
+
+| id | named | gap | stage | probability | check-in | status at check-in | time to fill | result |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| G-2026-10-01 | 2026-10-28 | Verifying data-centre power requests | Open | 45% | 2027-04-28 |  |  | live |
+| G-2026-10-02 | 2026-10-28 | Chatbot child-safety compliance | Stirring | 50% | 2027-04-28 |  |  | live |
+| R-2026-10-01 | 2026-10-28 | Provider tools for Medicare WISeR prior authorisation |  |  |  |  |  | rejected |
+| G-2026-10-03 | 2026-10-29 | Tenant commitment risk in data-centre credit | Open | 50% | 2027-04-29 |  |  | live |
+| G-2026-10-04 | 2026-10-29 | Coding-drift audit for AI-documented encounters | Stirring | 45% | 2027-04-29 |  |  | live |
+
+## Effect predictions
+
+Rebuilt every run from the effect record. Each says what a rule will cause, never whether it is adopted.
+
+| id | rule | made | effect | check date | probability | result |
+| --- | --- | --- | --- | --- | --- | --- |
+| E-2026-10-01 | PJM large-load adjustment | 2026-10-28 | PJM's final 2030/31 large-load adjustment is at least 15% below the utilities' 29 Sep submissions | 2026-12-31 | 60% | open |
+| E-2026-10-02 | ERCOT Batch Zero verification | 2026-10-28 | The 10 Dec report disqualifies or lists as non-responding at least 10% of conditionally included, not-yet-energised large-load megawatts | 2026-12-17 | 55% | open |
+| E-2026-10-03 | Texas 75 MW threshold (SB 6, Project 58481) | 2026-10-28 | ERCOT's count of 25-75 MW data-centre and crypto loads exceeds 157 by at least 20% | 2026-12-10 | 50% | open |
+| E-2026-10-04 | New York minors' AI companion law | 2026-10-28 | At least two of ChatGPT, Gemini, Meta AI, Character.AI and Replika require age assurance beyond self-declaration for New York users' memory or persona features | 2027-06-30 | 55% | open |
+| E-2026-10-05 | California SB 243 reporting | 2026-10-28 | The Office of Suicide Prevention publishes data for at least 3 named operators, with over 100,000 crisis-referral notifications for 2026-27 | 2027-12-31 | 40% | open |
+| E-2026-10-06 | Colorado AI Act and chatbot rules | 2026-10-28 | Two or fewer Attorney General enforcement actions under SB 26-189 or HB 26-1263 by end-2027 | 2027-12-31 | 80% | open |
+| E-2026-10-07 | Medicare WISeR pilot | 2026-10-28 | The first evaluation shows at least a 15% fall in listed services against comparison states, and at least a 5% rise in adjacent unlisted services | 2028-03-31 | 35% | open |
+| E-2026-10-08 | PJM interim and non-firm large-load services | 2026-10-28 | More than half of new large-load megawatts signing in the first 12 months choose non-firm or interim service | 2028-06-30 | 45% | open |
+| E-2026-10-09 | MOFCOM Announcement 70/2025 (rare-earth suspension, fixed expiry 10 Nov 2026) | 2026-10-29 | China's October 2026 exports of rare-earth permanent magnets (HS 8505.11) exceed the January-September 2026 monthly average by at least 10% as buyers front-load before the expiry | 2026-11-25 | 55% | open |
+| E-2026-10-10 | FERC order of 9 Oct 2026 in ER26-3515 (PJM Large Load definition and Registry) | 2026-10-29 | The first published registry total of large-load megawatts with executed agreements comes in at least 30% below the utility-submitted large-load additions in PJM's 2027 Long-Term Load Forecast for 2030/31 | 2027-06-30 | 50% | open |
+
+Comments filed: none yet.
+
+## Corrections
+
+A correction never rewrites an earlier entry.
+
+- 2026-10-29: T31 "925 US local moratoria" is not verified; the National League of Cities tracker counts at least 76 localities as of Aug 2026 (https://www.route-fifty.com/artificial-intelligence/2026/08/many-localities-have-tried-data-center-moratoriums-tracker-finds/415696/)
+- 2026-10-29: The "Ohio Supreme Court shield for moratoria" (T31 annotation, 28 Oct) is not verified as stated: the court let the Ashville referendum proceed in Aug 2026, and the Lordstown case was still pending in Jun 2026 (https://www.mariettatimes.com/uncategorized/2026/08/ohio-supreme-court-allows-ashville-referendum-against-data-center-project-to-move-forward/)
+- 2026-10-29: T27 "PJM 42% phantom load": the figure is the share of PJM's assumed data-centre growth that was cancelled or delayed (PJM market monitor), not load flagged as speculative (https://techradar.com/pro/how-do-you-know-whats-real-us-utilities-are-making-ai-data-centers-prove-they-exist-before-handing-over-power-connections-as-50-percent-of-planned-buildouts-are-currently-being-delayed-stalled-or-canceled)
+- 2026-10-29: S12 "WISeR 2027 list" and "contingency cap": neither appears in CMS's WISeR FAQ (updated 22 Sep 2026) or participant guide; treat both as unverified (https://www.cms.gov/priorities/innovation/files/document/wiser-model-frequently-asked-questions)
+- 2026-10-29: "New York's sycophancy statute" (28 Oct run) is S9051B/A10379C, a minors' companion-chatbot law signed 28 Oct 2026, effective 1 Jan 2027; flattery is one of 12 banned features (https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill)

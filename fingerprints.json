@@ -39,9 +39,19 @@
     "scorecard.csv"
    ],
    "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text; the same bytes are written to github.com/Interregnum-Research/record (push status in the runlog).",
-   "sha256": "b50a6740411f39d92acba5c49c1641c7e2345a77ac06ade21597b398b57f0ca3",
+   "published_note": "Pushed 28 Oct (afternoon, Pacific) from a second session after the scheduled run's push was refused. The engine's hash could not be reproduced byte-for-byte; published_sha256 is the hash of the files as committed.",
    "published_sha256": "05f4e61582d7483e0be2e818809d95970d4c46aa22c0b3dd2bab16886f0e9ce9",
-   "published_note": "Pushed 28 Oct (afternoon, Pacific) from a second session after the scheduled run's push was refused. The engine's hash could not be reproduced byte-for-byte; published_sha256 is the hash of the files as committed."
+   "sha256": "b50a6740411f39d92acba5c49c1641c7e2345a77ac06ade21597b398b57f0ca3"
+  },
+  {
+   "date": "2026-10-29",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "c7eb8c145766c2d938e193fa0d8caab23179d2b66a569441851587f168f11b93",
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text; the same bytes are written to github.com/Interregnum-Research/record (push status in the runlog). The exact strings are held in engine/record_snapshot."
   }
  ]
 }
