@@ -65,12 +65,31 @@
   },
   {
    "date": "2026-11-02",
-   "sha256": "078b8d986f775e2e3dae509ddcd474917e40876885e0d62853299009c598a559",
    "files": [
     "calls.json",
     "record.md",
     "scorecard.csv"
-   ]
+   ],
+   "sha256": "078b8d986f775e2e3dae509ddcd474917e40876885e0d62853299009c598a559"
+  },
+  {
+   "date": "2026-11-03",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "1c146dca23937dafb3038b7f4d10a1ff8ed4409235bc5c96446a08a51a5e4999"
+  },
+  {
+   "date": "2026-11-04",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "a85eab4384ed5cbf897853d89814c1d9829745a2f5a7de83eed12a089febb788",
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status in the runlog. The 3 Nov files were not published (the repository stands at the 2 Nov commit); today's commit carries both days' changes."
   }
  ]
 }
