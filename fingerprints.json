@@ -90,6 +90,16 @@
    ],
    "sha256": "a85eab4384ed5cbf897853d89814c1d9829745a2f5a7de83eed12a089febb788",
    "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status in the runlog. The 3 Nov files were not published (the repository stands at the 2 Nov commit); today's commit carries both days' changes."
+  },
+  {
+   "date": "2026-11-05",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "8cbc43498d3af3bcf03d140c50aa7f00dbdceeb5dad8fa6cb167a45a82ffc630",
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status in the runlog. The repository stood at the 4 Nov commit (bd7a993, pushed from another session) when this run cloned it, so today's commit carries only the 5 Nov changes."
   }
  ]
 }
