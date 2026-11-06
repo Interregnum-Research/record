@@ -100,6 +100,16 @@
    ],
    "sha256": "8cbc43498d3af3bcf03d140c50aa7f00dbdceeb5dad8fa6cb167a45a82ffc630",
    "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status in the runlog. The repository stood at the 4 Nov commit (bd7a993, pushed from another session) when this run cloned it, so today's commit carries only the 5 Nov changes."
+  },
+  {
+   "date": "2026-11-06",
+   "files": [
+    "calls.json",
+    "record.md",
+    "scorecard.csv"
+   ],
+   "sha256": "c905bcbdd318902279b9c1941f8c12b6d2e86d614bfe94b627f05a02fe4105a1",
+   "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; the scheduled run's push was refused by the git proxy (repository not in that session's authorized set), so the files were reconstructed from engine/record_snapshot in a second session, the hash verified byte for byte, and pushed on 6 Nov 2026."
   }
  ]
 }
