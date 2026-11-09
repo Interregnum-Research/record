@@ -160,8 +160,9 @@ Rebuilt every run from the industry-call record (public and private; Ugo, 3 Nov)
 
 | id | made | public since | sector | call | horizon | check date | probability | result |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| I-2026-11-01 | 2026-11-09 | private, embargoed | private, embargoed | private, embargoed; text sha256 1a3c2e7ca1908e5e0ee73f73500ea925522e8095e95b051901f43fb4534bf8d1 | | | | |
 
-No industry calls made yet. The first Thursday test (5 Nov 2026) took two candidates from the queue and both failed (one on the sector-shape leg, one on the dated test); the fingerprint will carry a call's id, date and text hash on the day one is made.
+One call made, private and embargoed until 2027-02-07 (made in a one-off test run on 9 Nov 2026 after twelve candidates were tested; eleven failed and are not recorded). The text hash is the SHA-256 of "<id>|<made>|<sector>|<call>|<check_date>"; the text will be added here when the call is made public, and anyone can then check it against this hash.
 
 ## Credit calls
 
