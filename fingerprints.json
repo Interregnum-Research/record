@@ -129,5 +129,15 @@
   ],
   "sha256": "4ce032cc8499f46bfa8e90548b2e841eff850fa3c18bd276430e569b0aae7e9b",
   "note": "second fingerprint of 9 Nov: record.md adds industry call I-2026-11-01 (private, embargoed) with its text hash 1a3c2e7ca1908e5e0ee73f73500ea925522e8095e95b051901f43fb4534bf8d1, made the same day outside the scheduled run; calls.json and scorecard.csv unchanged from the run's snapshot (sha256 1296b84d\u2026)"
+ },
+ {
+  "date": "2026-11-10",
+  "sha256": "d622384be9c8c4daf6ce574d9f21ce7b586f52d51d9953432768b001191ba55f",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "10 Nov run: the industry-calls table rebuilt from engine/industry_calls (the store's record had lacked the I-2026-11-01 row the 9 Nov one-off push carried); S05 Lynas exit restated; the store's fingerprint list now carries the second 9 Nov entry from the public file"
  }
 ]
