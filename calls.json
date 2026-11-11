@@ -93,6 +93,7 @@
    "horizon": "structural",
    "id": "S02",
    "known_binary_2026-11-09": "Known-binary rule, 9 Nov (CoreWeave Q3 after the close on 10 Nov is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a cut to commitments or capex): no entered leg is above 0.7 correlation to the AI basket (GEV 20-day correlation 0.57), but the event bears on S02's thesis (data-centre power demand), so the engine states its choice: HOLD FULL SIZE. The plausible adverse move is two realised daily sigmas: GE Vernova 9.2% (20-day realised vol 4.6% a day), Siemens Energy 8.4%; at 2.5% a leg that is a loss of about 0.44 points of book value and would take the trade from -2.6% to about -11.4%, still inside the -15% stop. Holding is right because S02 is structural (turbine backlog to 2028 with 98% of 2027 hedged at the utilities) and a neocloud's quarterly commitments do not change the delivery slots already sold; a CoreWeave capex cut of 20% or more would be new evidence on the thesis and is read at the next run, not held through.",
+   "known_binary_2026-11-10": "Known-binary rule, 10 Nov (CoreWeave Q3 after the close today is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a cut to commitments or capex, or a leverage print above Fitch's 4.0x trigger that forces rating-constrained selling; Polymarket 21% for a Moody's or S&P downgrade by 31 Dec): no entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day correlation 0.62, Siemens Energy 0.51, both up from 9 Nov), but the event bears on S02's thesis, so the engine states its choice: HOLD FULL SIZE. The plausible adverse move is two realised daily sigmas: GE Vernova about 9%, Siemens Energy about 8%; at 2.5% a leg that is a loss of about 0.43 points of book value and would take the trade from +0.4% to about -8%, inside the -15% stop and short of the at-risk line (-7.5%) by a fraction. Holding is right because S02 is structural (turbine slots sold to 2028-29; Mitsubishi Heavy raised its GTCC order forecast 25% on 6 Nov; Vistra's 2027 hedged 98%) and a neocloud's quarterly commitments do not change delivery slots already sold; a CoreWeave capex cut of 20% or more with a named Texas cancellation would be read as a demand signal for the 2029 slot book and the position reviewed at the 11 Nov run. 'Two-sided' is not the reason; the reason is that the adverse branch does not reach the stop and the thesis does not depend on the print.",
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
@@ -101,8 +102,8 @@
      "entry": 828.113,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 829.34,
-     "last_date": "2026-11-09",
+     "last": 797.0399780273438,
+     "last_date": "2026-11-10",
      "month_move_pct": -17.46,
      "pnl_pct": 0.15,
      "published_level": 925.92,
@@ -114,8 +115,8 @@
      "entry": 119.6,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 120.46,
-     "last_date": "2026-11-10",
+     "last": 130.5800018310547,
+     "last_date": "2026-11-11",
      "month_move_pct": -17.93,
      "pnl_pct": 0.72,
      "published_level": 133.64,
@@ -139,6 +140,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; US legs at the 4 Nov close, Europe at the 5 Nov print): on track, avg +0.6% (GEV 832.83 +0.6%, -9.3% on 4 Nov with the AI complex; ENR.DE 120.34 +0.6%); the gain since entry given back; no exit condition triggered. Wartsila's second 282 MW US data-centre engine order (booked Q3) delivers in 2028 for operation in 2029, so the 'fast' engine substitute now carries a two-to-three-year lead time (T35 context: the frame-turbine reservation book is not being undercut by a quicker bridge). Siemens Energy Q4 FY26 19 Nov. Hold.",
    "note_2026-11-06": "6 Nov (pre-US-open; US legs at the 5 Nov close, Europe at the 6 Nov print): on track, avg -4.5% (GEV 770.51 -7.0%, -7.5% on 5 Nov with the AI complex; ENR.DE 117.12 -2.1%); 10.5% to the -15% stop on the average; no exit condition triggered. Eaton Q3 (3 Nov): 12-month organic orders Electrical Americas +39%, Global +51%, electrical backlog $20.4bn (+46%), Global organic backlog +77%: the grid-equipment order book is still rising where GE Vernova's reservations fell (T35). Siemens Energy Q4 FY26 19 Nov. Hold.",
    "note_2026-11-09": "9 Nov: on track, avg -2.61% (GEV 774.11 at the 6 Nov close, -6.5%; ENR.DE 121.14 at the 9 Nov print, +1.3%); channel clause added to the exit; known-binary statement for CoreWeave Q3 (hold full size, adverse move stated).",
+   "note_2026-11-10": "10 Nov: on track, avg +0.43% (GEV 829.34 at the 9 Nov close, +0.15%, after +4.2% on 9 Nov; ENR.DE 120.46 at the 10 Nov print, +0.72%). Evidence: Mitsubishi Heavy raised its FY GTCC order forecast 25% to JPY3.0tn with order value rising faster than units (19 units/8 GW vs 23/10 GW), JPY500bn for hot-gas-path parts and a first buyback (6 Nov): the oligopoly prices scarcity rather than adding plants, which supports the pricing leg; CRA's PJM forecast review haircuts uncontracted and moratorium-area projects but still shows an 11.5 GW gap by 2030, so equipment demand holds while generator pricing is forecast away. Known-binary rule restated for CoreWeave Q3 tonight (below). Siemens Energy Q4 FY26 on 19 Nov enters the five-day window on the 12 Nov run.",
    "prev_mark_status": "on track",
    "prob": 0.65,
    "prob_raw": 0.65,
@@ -151,9 +153,7 @@
     "surprise": 2
    },
    "status": "entered",
-   "stop_pct": 15,
-   "note_2026-11-10": "10 Nov: on track, avg +0.43% (GEV 829.34 at the 9 Nov close, +0.15%, after +4.2% on 9 Nov; ENR.DE 120.46 at the 10 Nov print, +0.72%). Evidence: Mitsubishi Heavy raised its FY GTCC order forecast 25% to JPY3.0tn with order value rising faster than units (19 units/8 GW vs 23/10 GW), JPY500bn for hot-gas-path parts and a first buyback (6 Nov): the oligopoly prices scarcity rather than adding plants, which supports the pricing leg; CRA's PJM forecast review haircuts uncontracted and moratorium-area projects but still shows an 11.5 GW gap by 2030, so equipment demand holds while generator pricing is forecast away. Known-binary rule restated for CoreWeave Q3 tonight (below). Siemens Energy Q4 FY26 on 19 Nov enters the five-day window on the 12 Nov run.",
-   "known_binary_2026-11-10": "Known-binary rule, 10 Nov (CoreWeave Q3 after the close today is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a cut to commitments or capex, or a leverage print above Fitch's 4.0x trigger that forces rating-constrained selling; Polymarket 21% for a Moody's or S&P downgrade by 31 Dec): no entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day correlation 0.62, Siemens Energy 0.51, both up from 9 Nov), but the event bears on S02's thesis, so the engine states its choice: HOLD FULL SIZE. The plausible adverse move is two realised daily sigmas: GE Vernova about 9%, Siemens Energy about 8%; at 2.5% a leg that is a loss of about 0.43 points of book value and would take the trade from +0.4% to about -8%, inside the -15% stop and short of the at-risk line (-7.5%) by a fraction. Holding is right because S02 is structural (turbine slots sold to 2028-29; Mitsubishi Heavy raised its GTCC order forecast 25% on 6 Nov; Vistra's 2027 hedged 98%) and a neocloud's quarterly commitments do not change delivery slots already sold; a CoreWeave capex cut of 20% or more with a named Texas cancellation would be read as a demand signal for the 2029 slot book and the position reviewed at the 11 Nov run. 'Two-sided' is not the reason; the reason is that the adverse branch does not reach the stop and the thesis does not depend on the print."
+   "stop_pct": 15
   },
   {
    "avg_pnl_pct": null,
@@ -229,8 +229,8 @@
      "entry": 2.12,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 2.14,
-     "last_date": "2026-11-09",
+     "last": 2.1700000762939453,
+     "last_date": "2026-11-10",
      "month_move_pct": 25.88,
      "pnl_pct": -0.94,
      "published_level": 2.19,
@@ -243,8 +243,8 @@
      "entry": 2500,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 2475.3999,
-     "last_date": "2026-11-09",
+     "last": 2472.10009765625,
+     "last_date": "2026-11-11",
      "month_move_pct": 19.24,
      "pnl_pct": -0.98,
      "published_level": 2530,
@@ -268,6 +268,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; US legs at the 4 Nov close, Asia at the 5 Nov close): on track, avg -1.0% (WIT 2.16 -1.9% short; TCS.NS 2,495.7 -0.2%); no exit condition triggered. Mphasis Q2 FY27 not published at run time (call 6 Nov); EPAM Q3 (5 Nov) guides Q4 flat with delivery heads +1.2% q/q; TaskUs's largest client fell from 27% to 17% of revenue by automating trust-and-safety work in-house; Best Law Firms (5 Nov): AI adoption doubled, billable hours intact. Hold.",
    "note_2026-11-06": "6 Nov (pre-US-open; US legs at the 5 Nov close, Asia at the 6 Nov close): on track, avg -1.0% (WIT 2.16 -1.9% short; TCS.NS 2,498.5 -0.1%); no exit condition triggered. Mphasis Q2 FY27 (5 Nov, call 6 Nov): revenue +9.2% y/y, new TCV $466m with 66% AI-led, gross margin -100bp y/y, FY27 guide raised to low double digits; no headcount disclosed. Genpact Q3 (5 Nov): core business services flat, non-FTE revenue above 55%, headcount down again; EPAM (5 Nov): heads +2.2%, price up. The pair's deflating lane (run-and-operate, Wipro) and the lane that holds price (build work) are now visible in the same week. Indian IT Q3 prints mid-January. Hold.",
    "note_2026-11-09": "9 Nov: on track, avg -1.44% (WIT 2.16 short -1.9%; TCS.NS 2,475.40 -1.0%); no new India IT disclosure 6-9 Nov; a secondary (Upstox, 6 Nov) read Indian IT's rise as an AI-selloff hedge: if the market treats Indian IT as the AI-loser hedge while the pair assumes AI deflation hits the weaker vendor, the pair's spread, not its level, is the test; channel clause added.",
+   "note_2026-11-10": "10 Nov: on track, avg -0.96% (WIT 2.14 short, -0.94% at the 9 Nov close; TCS.NS 2,475.40 at the 9 Nov close, -0.98%). Evidence both ways: Qantas sends 850 corporate roles to Accenture's India delivery citing AI (10 Nov), Naukri October shows GCC hiring +18% against IT services +5% and software engineering +1%, Zinnov has staff per GCC flat and 25 GCCs closed: the work stays in India but moves to captives and integrators, which is the pair's mechanism (vendor loses, India keeps the wage bill). Indian IT trades as the inverse of the US AI trade (Nifty IT +2.35% on 6 Nov, -1.22% on 9 Nov with Wipro the gainer): on AI-rebound days Wipro behaves as the defensive leg, so tonight's CoreWeave print can move the spread; Wipro investor meetings 17 and 19 Nov.",
    "prev_mark_status": "on track",
    "prob": 0.65,
    "prob_raw": 0.65,
@@ -280,8 +281,7 @@
     "surprise": 2
    },
    "status": "entered 2026-10-23 (Infosys condition met); below 70% line, scenario-sized",
-   "stop_pct": 10,
-   "note_2026-11-10": "10 Nov: on track, avg -0.96% (WIT 2.14 short, -0.94% at the 9 Nov close; TCS.NS 2,475.40 at the 9 Nov close, -0.98%). Evidence both ways: Qantas sends 850 corporate roles to Accenture's India delivery citing AI (10 Nov), Naukri October shows GCC hiring +18% against IT services +5% and software engineering +1%, Zinnov has staff per GCC flat and 25 GCCs closed: the work stays in India but moves to captives and integrators, which is the pair's mechanism (vendor loses, India keeps the wage bill). Indian IT trades as the inverse of the US AI trade (Nifty IT +2.35% on 6 Nov, -1.22% on 9 Nov with Wipro the gainer): on AI-rebound days Wipro behaves as the defensive leg, so tonight's CoreWeave print can move the spread; Wipro investor meetings 17 and 19 Nov."
+   "stop_pct": 10
   },
   {
    "avg_pnl_pct": 10.46,
@@ -298,7 +298,8 @@
    "legs": [
     {
      "close_date": "2026-11-06",
-     "close_price": 35.41,
+     "close_price": 36.36,
+     "close_source": "proxy: the 6 Nov close for the 10 Nov New York open; the open had not printed at run time; to be restated on the 11 Nov run",
      "currency": "USD",
      "entry": 38.285,
      "entry_date": "2026-10-26",
@@ -309,13 +310,14 @@
      "month_move_pct": -30.48,
      "pnl_pct": -7.51,
      "published_level": 39.5,
-     "return_pct": -7.51,
+     "return_pct": -5.03,
      "ticker": "MP",
-     "close_source": "proxy: the 6 Nov close for the 10 Nov New York open; the open had not printed at run time; to be restated on the 11 Nov run"
+     "close_note": "restated 11 Nov at the actual 10 Nov New York open (proxy was the 6 Nov close)"
     },
     {
      "close_date": "2026-11-09",
-     "close_price": 14.0,
+     "close_price": 14,
+     "close_source": "the actual 10 Nov Sydney open (restated 10 Nov; proxy was the 9 Nov close)",
      "currency": "AUD",
      "entry": 10.9,
      "entry_date": "2026-10-26",
@@ -327,8 +329,7 @@
      "pnl_pct": 20.64,
      "published_level": 11.38,
      "return_pct": 28.44,
-     "ticker": "LYC.AX",
-     "close_source": "the actual 10 Nov Sydney open (restated 10 Nov; proxy was the 9 Nov close)"
+     "ticker": "LYC.AX"
     }
    ],
    "lesson_test": "Lesson test: the known-binary rule applied to this trade would have changed nothing material (it was already sized small and asymmetric, 0.31% a leg, into a dated event); the channel clause did not exist when the exit was written and was not applied; no process miss.",
@@ -349,6 +350,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; US legs at the 4 Nov close, Asia at the 5 Nov close): on track, avg +6.3% (MP 35.91 -6.2%, -5.1% on 4 Nov; LYC.AX 12.95 +18.8%, +8.0% on 5 Nov); 6 days to resolution (11 Nov). No instrument either side as of 5 Nov: the Federal Register BIS feed's newest document is 14 Oct, the public-inspection list for 5 Nov (queried by date) returned zero documents, MOFCOM's news index for 1-5 Nov lists no announcement, and Vice Minister Ling Ji spoke only of 'optimising the export-control system' (4 Nov). New to the card: MOFCOM put MP Materials and USA Rare Earth on China's export-control list on 22 Jun 2026 (secondary), so MP is cut off from Chinese dual-use supply whatever No. 70 does; the MP leg is a pure ex-China pricing bet. LYC has no target, so the take-profit rule does not trigger. MP Materials Q3 after the close today. Lapse probability held at 40% (silence is the 2025 pattern; earliest readable test ~12-13 Nov). Hold.",
    "note_2026-11-06": "6 Nov (pre-US-open; US legs at the 5 Nov close, Asia at the 6 Nov close): on track, avg +0.5% (MP 33.74 -11.9%, -6.0% on 5 Nov; LYC.AX 12.31 +12.9%, -4.9% on 6 Nov); 5 days to resolution (11 Nov). NEW: BIS filed the extension of the affiliates-rule suspension on 5 Nov (FR 2026-22793, effective 9 Nov, to 10 Jan 2027); no MOFCOM/GACC instrument on No. 70 as of 6 Nov evening Beijing time. The US has moved first this year (in 2025 China moved first, No. 70 on 7 Nov); the 2025 pattern still allows a Chinese notice on 7-10 Nov, so the lapse probability stays at 40% (engine estimate, uncalibrated). MP Materials Q3 (5 Nov): NdPr sales 1,020 t (+94%), price-protection income $8.1m (the DoD floor binding, ~$7.9/kg), first saleable GM magnet deliveries in Q4; no China comment. LYC has no target, so the take-profit rule does not trigger. Hold; resolves on the 11 Nov run.",
    "note_2026-11-09": "Catalyst resolved: MOFCOM/GACC Announcement No. 58 of 2026 (9 Nov) keeps the October 2025 rare-earth controls suspended from 11 Nov 2026 to 10 Jan 2027, so the 40% lapse branch did not occur; the position still gained (Lynas +20.6% on the ex-China heavy-rare-earth premium, MP Materials -7.5%), so the trade is scored partial: the position gained without the stated outcome. Exit at the next open (10 Nov), proxied by the 6 Nov MP close and the 9 Nov Lynas close.",
+   "note_2026-11-10": "10 Nov: Lynas exit restated at the actual 10 Nov Sydney open A$14.00 (+28.44%); MP exit still the 6 Nov-close proxy (35.41, -7.51%) until the 10 Nov New York open prints; position average 10.46%; result partial unchanged.",
    "prev_mark_status": "on track",
    "prob": 0.4,
    "prob_history": [
@@ -364,8 +366,9 @@
    "prob_raw": 0.4,
    "reason": "Catalyst resolved: MOFCOM/GACC Announcement No. 58 of 2026 (9 Nov) keeps the October 2025 rare-earth controls suspended from 11 Nov 2026 to 10 Jan 2027, so the 40% lapse branch did not occur; the position still gained (Lynas +20.6% on the ex-China heavy-rare-earth premium, MP Materials -7.5%), so the trade is scored partial: the position gained without the stated outcome. Exit at the next open (10 Nov), proxied by the 6 Nov MP close and the 9 Nov Lynas close.",
    "resolves": "2026-11-11",
+   "restated_2026-11-10": "Lynas exit restated at the actual 10 Nov Sydney open A$14.00 (+28.44%); MP exit still the 6 Nov-close proxy 35.41 (-7.51%) until the 10 Nov New York open prints; average +10.46%; result partial unchanged",
    "result": "partial",
-   "return_pct": 10.46,
+   "return_pct": 11.71,
    "rubric_scores": {
     "evidence": 3,
     "mechanism": 1,
@@ -375,8 +378,7 @@
    },
    "status": "closed",
    "stop_pct": 20,
-   "note_2026-11-10": "10 Nov: Lynas exit restated at the actual 10 Nov Sydney open A$14.00 (+28.44%); MP exit still the 6 Nov-close proxy (35.41, -7.51%) until the 10 Nov New York open prints; position average 10.46%; result partial unchanged.",
-   "restated_2026-11-10": "Lynas exit restated at the actual 10 Nov Sydney open A$14.00 (+28.44%); MP exit still the 6 Nov-close proxy 35.41 (-7.51%) until the 10 Nov New York open prints; average +10.46%; result partial unchanged"
+   "return_note": "average of MP -5.03% (10 Nov NY open, restated 11 Nov) and Lynas +28.44% (10 Nov Sydney open)"
   },
   {
    "avg_pnl_pct": -16.02,
@@ -478,8 +480,8 @@
      "entry": 231.8,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 234.9,
-     "last_date": "2026-11-10",
+     "last": 242.0,
+     "last_date": "2026-11-11",
      "month_move_pct": -11.48,
      "pnl_pct": 1.34,
      "published_level": 249.1,
@@ -491,8 +493,8 @@
      "entry": 99.8,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 106.225,
-     "last_date": "2026-11-10",
+     "last": 110.94999694824219,
+     "last_date": "2026-11-11",
      "month_move_pct": -13.25,
      "pnl_pct": 6.44,
      "published_level": 108.35,
@@ -504,8 +506,8 @@
      "entry": 114,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 127.7,
-     "last_date": "2026-11-10",
+     "last": 131.89999389648438,
+     "last_date": "2026-11-11",
      "month_move_pct": -3.18,
      "pnl_pct": 12.02,
      "published_level": 122,
@@ -517,8 +519,8 @@
      "entry": 124.5,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 133.9,
-     "last_date": "2026-11-10",
+     "last": 137.89999389648438,
+     "last_date": "2026-11-11",
      "month_move_pct": -4.08,
      "pnl_pct": 7.55,
      "published_level": 131.3,
@@ -542,6 +544,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; Europe at the 5 Nov print): on track, avg +4.4% (SU.PA 234.60 +1.2%; PRY.MI 104.25 +4.5%; NEX.PA 120.10 +5.4%; LR.PA 132.90 +6.8%); no exit condition triggered. Cochilco (30 Oct) cut Chile's copper output forecast 6-8% while still projecting a refined surplus, and the Shanghai cathode premium hit a yearly high: an input-cost watch for Prysmian and Nexans. Ofgem self-build consultation closes 13 Nov; EU gigafactory Lot 2 3 Dec. Hold.",
    "note_2026-11-06": "6 Nov (Europe at the 6 Nov print): on track, avg +3.0% (SU.PA 227.75 -1.8%; PRY.MI 102.20 +2.4%; NEX.PA 121.60 +6.7%; LR.PA 130.30 +4.7%); all four fell 2-3% with the AI complex; no exit condition triggered. Eaton Q3 (3 Nov): Electrical Global organic backlog +77% vs Americas +33%, a COL Group (Italy) acquisition for European medium-voltage distribution: the next leg of equipment demand reads non-US. Ofgem self-build consultation closes 13 Nov; EU gigafactory Lot 2 3 Dec. Hold.",
    "note_2026-11-09": "9 Nov: on track, avg +6.22% (SU.PA 233.60, PRY.MI 105.75, NEX.PA 125.70, LR.PA 134.30 at the 9 Nov print); the PJM TO suite and Saudi Infra's SAR 1.4bn grid facility (1 GW designed) are both grid-equipment demand with opposite financing; channel clause added.",
+   "note_2026-11-10": "10 Nov: on track, avg +6.84% (SU.PA 234.90, PRY.MI 106.225, NEX.PA 127.70, LR.PA 133.90 at the 10 Nov print). Prysmian Q3 (29 Oct, read today): Transmission +23.1% organic at a 20.0% margin, Industrial & Construction +14.2% at 17.6% citing data centres, 2026 EBITDA guide raised to EUR3.08-3.13bn, 2028 targets two years early: supplier margin, not copper pass-through. CRA's PJM review keeps the equipment layer's demand (11.5 GW gap by 2030) while haircutting the speculative pipeline; Europe rations by connection denial (37 refusals, mostly grid decisions), which is demand for grid equipment with a slower clock. Ofgem self-build consultation closes 13 Nov.",
    "prev_mark_status": "on track",
    "prob": 0.7,
    "prob_raw": 0.7,
@@ -554,8 +557,7 @@
     "surprise": 2
    },
    "status": "entered",
-   "stop_pct": 15,
-   "note_2026-11-10": "10 Nov: on track, avg +6.84% (SU.PA 234.90, PRY.MI 106.225, NEX.PA 127.70, LR.PA 133.90 at the 10 Nov print). Prysmian Q3 (29 Oct, read today): Transmission +23.1% organic at a 20.0% margin, Industrial & Construction +14.2% at 17.6% citing data centres, 2026 EBITDA guide raised to EUR3.08-3.13bn, 2028 targets two years early: supplier margin, not copper pass-through. CRA's PJM review keeps the equipment layer's demand (11.5 GW gap by 2030) while haircutting the speculative pipeline; Europe rations by connection denial (37 refusals, mostly grid decisions), which is demand for grid equipment with a slower clock. Ofgem self-build consultation closes 13 Nov."
+   "stop_pct": 15
   },
   {
    "avg_pnl_pct": -4.29,
@@ -630,8 +632,8 @@
      "entry": 15.925,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 17.125,
-     "last_date": "2026-11-10",
+     "last": 16.989999771118164,
+     "last_date": "2026-11-11",
      "month_move_pct": 14.86,
      "pnl_pct": 7.54,
      "published_level": 16.2,
@@ -643,8 +645,8 @@
      "entry": 121.97,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 108.3,
-     "last_date": "2026-11-09",
+     "last": 108.41000366210938,
+     "last_date": "2026-11-10",
      "month_move_pct": 4.93,
      "pnl_pct": -11.21,
      "published_level": 115.26,
@@ -656,8 +658,8 @@
      "entry": 3037,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 2988.0,
-     "last_date": "2026-11-10",
+     "last": 2981.0,
+     "last_date": "2026-11-11",
      "month_move_pct": 8.26,
      "pnl_pct": -1.61,
      "published_level": 2973,
@@ -681,6 +683,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; US legs at the 4 Nov close, Europe at the 5 Nov print): on track, avg +3.6% (UMG.AS 17.985 +12.9%, +4.1% on 5 Nov; TRI 117.23 -3.9% after +6.4% on 4 Nov; REL.L 3,090p +1.7%); no exit condition triggered. Best Law Firms 2027 report (5 Nov): full generative-AI implementation 56% at 150+ lawyer firms (23% a year ago), only 25% report fewer billable hours, alternative fees fell to 70%; the Tenth Circuit (Flux Drive v Rong, 2 Nov, secondary) upheld a $115,000 fee award over AI-use objections: the firms keep the gain and the toolmakers (TRI, RELX) keep the price. Bartz first payments 15 Nov. Hold the first half.",
    "note_2026-11-06": "6 Nov (pre-US-open; US legs at the 5 Nov close, Europe at the 6 Nov print): on track, avg +0.5% (UMG.AS 16.985 +6.7%, -5.6% on 6 Nov; TRI 118.11 -3.2%; REL.L 2,977p -2.0%); no exit condition triggered. NYSBA guidelines (31 Oct): hourly billers may not bill time AI saved, flat-fee matters keep the gain (the toolmakers keep their price either way); Suno and Udio are subpoenaing streaming data to test market harm (MLC opposition 3 Nov; replies 13 and 16 Nov); Bartz first payments by 15 Nov at about $2,204 a work (conflict: the engine runs on an Anthropic model); Anthropic-AP live-data licence (5 Nov). Hold the first half.",
    "note_2026-11-09": "9 Nov: on track, avg -0.49% (UMG.AS 17.13 +7.6%; TRI 112.57 -7.7% at the 6 Nov close; REL.L 2,997p -1.3%); Elvis and Eminem catalogues sue Suno despite its label licences (estates price the long tail); CJEU AG puts EU liability on the output, not the training (a negative for archive licensing, a positive for live feeds); channel clause added.",
+   "note_2026-11-10": "10 Nov: on track, avg -1.76% (UMG.AS 17.125 +7.5%; TRI 108.30 at the 9 Nov close, -11.2% after -3.3% on 9 Nov; REL.L 2,988p -1.6%). Courts quiet 6-10 Nov: no filings found in Suno/Udio v. the MLC (Udio reply 13 Nov, Suno 16 Nov); Apple's motion to quash moved to D. Mass. (5 Nov); the MLC's earlier 'several terabytes for ~$5,000' production shows how cheap licensed streaming data was before the value was noticed; GEMA v. Suno (Munich, 31 Jul) found memorisation and no TDM exception (unverified against the court record); no OLG ruling in GEMA v. OpenAI. TRI is the leg to watch: -11.2% with the average inside the stop; the exit's channel clause (the three legs' average -15%, or underperformance of the MSCI World by 10 points over 20 days) is not near.",
    "prev_mark_status": "on track",
    "prob": 0.6,
    "prob_raw": 0.6,
@@ -693,8 +696,7 @@
     "surprise": 1
    },
    "status": "entered",
-   "stop_pct": 15,
-   "note_2026-11-10": "10 Nov: on track, avg -1.76% (UMG.AS 17.125 +7.5%; TRI 108.30 at the 9 Nov close, -11.2% after -3.3% on 9 Nov; REL.L 2,988p -1.6%). Courts quiet 6-10 Nov: no filings found in Suno/Udio v. the MLC (Udio reply 13 Nov, Suno 16 Nov); Apple's motion to quash moved to D. Mass. (5 Nov); the MLC's earlier 'several terabytes for ~$5,000' production shows how cheap licensed streaming data was before the value was noticed; GEMA v. Suno (Munich, 31 Jul) found memorisation and no TDM exception (unverified against the court record); no OLG ruling in GEMA v. OpenAI. TRI is the leg to watch: -11.2% with the average inside the stop; the exit's channel clause (the three legs' average -15%, or underperformance of the MSCI World by 10 points over 20 days) is not near."
+   "stop_pct": 15
   },
   {
    "avg_pnl_pct": -24.55,
@@ -714,8 +716,8 @@
      "corr_ai_20d": 0.26,
      "currency": "USD",
      "entry": 4.97,
-     "last": 3.75,
-     "last_date": "2026-11-09",
+     "last": 3.759999990463257,
+     "last_date": "2026-11-10",
      "month_move_pct": -27.33,
      "pnl_pct": -24.55,
      "ticker": "COUR"
@@ -737,6 +739,7 @@
    "note_2026-11-05": "5 Nov: scenario, COUR 3.90 (4 Nov close), -21.5% from the 21 Oct level; no position. Duolingo (3 Nov) stopped selling its AI tier and folded it into the standard plan while its credential line (the Duolingo English Test) grew 2%: the AI premium priced at zero from the learner's side, the credential flat.",
    "note_2026-11-06": "6 Nov: scenario, COUR 3.75 (5 Nov close), -24.5% from the 21 Oct level; no position. UK DBT survey (29 Oct): adoption 32% from 16%, reported productivity gains falling; Korea's suneung sits 19 Nov under the smart-glasses rules with 82% of proctors saying the procedure cannot detect them.",
    "note_2026-11-09": "9 Nov: scenario, COUR 3.74 (-24.8% from the 21 Oct level); NSC: computer science enrolment -12.4% while health majors grow, the demand shift the scenario rests on; channel clause added.",
+   "note_2026-11-10": "10 Nov: scenario, COUR 3.75 (-24.6% from the 21 Oct level); PhysicsWallah (India) cut headcount for the first time with revenue +18% and plans to sell its AI tutor at twice the online-batch price: the demand shift from human instruction to machine tutoring the scenario rests on, now visible in a second market.",
    "prev_mark_status": "scenario",
    "prob": 0.6,
    "prob_raw": 0.6,
@@ -749,8 +752,7 @@
     "surprise": 1
    },
    "status": "scenario (no position)",
-   "stop_pct": null,
-   "note_2026-11-10": "10 Nov: scenario, COUR 3.75 (-24.6% from the 21 Oct level); PhysicsWallah (India) cut headcount for the first time with revenue +18% and plans to sell its AI tutor at twice the online-batch price: the demand shift from human instruction to machine tutoring the scenario rests on, now visible in a second market."
+   "stop_pct": null
   },
   {
    "avg_pnl_pct": null,
@@ -770,8 +772,8 @@
      "corr_ai_20d": -0.08,
      "currency": "USD",
      "entry": null,
-     "last": 105.38,
-     "last_date": "2026-11-09",
+     "last": 102.72000122070312,
+     "last_date": "2026-11-10",
      "month_move_pct": -5.38,
      "pnl_pct": null,
      "ticker": "BABA"
@@ -780,8 +782,8 @@
      "corr_ai_20d": -0.31,
      "currency": "HKD",
      "entry": null,
-     "last": 417.8,
-     "last_date": "2026-11-10",
+     "last": 409.6000061035156,
+     "last_date": "2026-11-11",
      "month_move_pct": -1.65,
      "pnl_pct": null,
      "ticker": "0700.HK"
@@ -803,6 +805,7 @@
    "note_2026-11-05": "5 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 105.29 (4 Nov close), 0700.HK 430.40 (5 Nov close, +7.2%); no lab, EU or Japanese reaction to No. 48 found; the 5 Nov MOFCOM press-conference transcript did not load. The Treasury COINS NPRM's questions were read (comment draft on the Policy tab): a prohibition on 'SI system' development would not reach API-form revenue, which is the thesis. Wait.",
    "note_2026-11-06": "6 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 108.07 (5 Nov close), 0700.HK 419.80 (6 Nov close, -2.5%). NEW: the BIS affiliates-rule suspension is extended to 10 Jan 2027 (FR 2026-22793, effective 9 Nov), which keeps the US side of compute access open; Reuters (5 Nov, secondary): ~600,000 Nvidia H200s held in Hong Kong awaiting Beijing's import approval, so the binding gate is now the importer's; Tencent's October notes (78% in CNH at 2.4-3.0%) finance AI capex at roughly half the US dollar cost. Wait.",
    "note_2026-11-09": "9 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 109.45 (6 Nov close), 0700.HK 418.40 (9 Nov close); No. 58 of 2026 extends the rare-earth suspension to 10 Jan 2027, so both US-China gates now roll together; no reaction to No. 48 found 6-9 Nov; channel clause added.",
+   "note_2026-11-10": "10 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 105.38 (9 Nov close), 0700.HK 417.80 (10 Nov close). MOFCOM's 16 Oct Q&A (via the Cloud Security Alliance note) says API, app, web, SaaS and on-device use are not exports of a large model, local deployment abroad needs a licence and automatic licensing may apply on a Chinese firm's own overseas cloud: on the current text the entry condition (catalogue not widened to API access) holds, and the 15 Nov close, not an adoption notice, is the next test. China's gates both bind: ~600,000 H200s still held in Hong Kong, an 8-GPU H200 server above CNY6m in mainland China (~3x a year earlier; EET China, secondary). The Tariff Commission's 10 Nov notice warns of countermeasures if the US re-bases IEEPA tariffs on Section 301; APEC 18-19 Nov.",
    "prev_mark_status": "waiting",
    "prob": 0.55,
    "prob_raw": 0.55,
@@ -815,8 +818,7 @@
     "surprise": 2
    },
    "status": "waiting (MOFCOM 15 Nov)",
-   "stop_pct": 15,
-   "note_2026-11-10": "10 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 105.38 (9 Nov close), 0700.HK 417.80 (10 Nov close). MOFCOM's 16 Oct Q&A (via the Cloud Security Alliance note) says API, app, web, SaaS and on-device use are not exports of a large model, local deployment abroad needs a licence and automatic licensing may apply on a Chinese firm's own overseas cloud: on the current text the entry condition (catalogue not widened to API access) holds, and the 15 Nov close, not an adoption notice, is the next test. China's gates both bind: ~600,000 H200s still held in Hong Kong, an 8-GPU H200 server above CNY6m in mainland China (~3x a year earlier; EET China, secondary). The Tariff Commission's 10 Nov notice warns of countermeasures if the US re-bases IEEPA tariffs on Section 301; APEC 18-19 Nov."
+   "stop_pct": 15
   },
   {
    "avg_pnl_pct": -5.1,
@@ -838,8 +840,8 @@
      "entry": 418.99,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 397.62,
-     "last_date": "2026-11-09",
+     "last": 405.1199951171875,
+     "last_date": "2026-11-10",
      "month_move_pct": 4.83,
      "pnl_pct": -5.1,
      "published_level": 417,
@@ -863,6 +865,7 @@
    "note_2026-11-05": "5 Nov (pre-US-open; US legs at the 4 Nov close): on track, UNH 409.38 (-2.3%); 12.7% to the stop; no exit condition triggered. Cigna Q3 (5 Nov): medical care ratio 85.0% (84.8%), SG&A ratio 4.9% (4.8%), no appeals, disputes or prior-authorisation words, 'Accelerate to One' $3bn programme with AI as an enabler; Oscar Q3: MLR 84.0% (88.5%), SG&A 14.0% (17.5%), $250m of favourable risk-adjustment estimates; CMS CY2027 PFS final (4 Nov): conversion factor -2.31% to $32.63 with no AI word, OPPS pays 'Software as a Medical Service' per use at 2026-aligned rates, RPM contractor rule delayed to 2029. The payer AI dividend is invisible in admin ratios and the regulated exposure sits in risk scores; neutral for the trade's denial-risk leg. Humana Q3 6 Nov. Hold.",
    "note_2026-11-06": "6 Nov (pre-US-open; US legs at the 5 Nov close): on track, UNH 395.72 (-5.5%; -3.3% on 5 Nov); 9.4% to the -15% stop; no exit condition triggered. Humana Q3 (6 Nov): insurance benefit ratio 93.7% (91.1%), operating cost ratio 7.7% (9.1%), FY26 adjusted EPS at least $9.50, no appeals, disputes or AI language outside the risk factors; CMS's WISeR page (19 Oct stamp) still lists no 2027 states while Humana commits to one-business-day decisions on 95% of electronic prior-authorisation requests: the two halves of Medicare move in opposite directions on algorithmic review. Neutral for the denial-risk leg; hold.",
    "note_2026-11-09": "9 Nov: on track, avg -5.93% (UNH 394.15 at the 6 Nov close); Oscar books its lowest SG&A ratio (14.0%) with AI named and unquantified; the PATIENT AI Act draft (comments 1 Dec) would pay for autonomous AI and leaves malpractice liability untouched; nothing new from UnitedHealth; channel clause added.",
+   "note_2026-11-10": "10 Nov: on track, avg -5.10% (UNH 397.62 at the 9 Nov close, +0.9% on 9 Nov); 9.9% to the stop. Evidence against the administrative-dividend thesis: NEJM AI (November issue) finds AI care plans cost 3.2x the treating physician's ($314 vs $97 a visit) with the gap in tests and referrals, so clinician-side AI raises utilisation while payer-side AI raises denials, an arms race on the medical line; India's insurers (Niva Bupa, Star Health) show the opposite print, AI adjudication landing as a lower claims ratio with the expense ratio unmoved. Nothing new from UnitedHealth 7-10 Nov; PATIENT AI Act comments 1 Dec; the exit's channel clause (-15% from entry, or -8% against the S&P 500 health-care index over 10 days) is not near.",
    "prev_mark_status": "on track",
    "prob": 0.55,
    "prob_raw": 0.55,
@@ -875,8 +878,7 @@
     "surprise": 1
    },
    "status": "entered",
-   "stop_pct": 15,
-   "note_2026-11-10": "10 Nov: on track, avg -5.10% (UNH 397.62 at the 9 Nov close, +0.9% on 9 Nov); 9.9% to the stop. Evidence against the administrative-dividend thesis: NEJM AI (November issue) finds AI care plans cost 3.2x the treating physician's ($314 vs $97 a visit) with the gap in tests and referrals, so clinician-side AI raises utilisation while payer-side AI raises denials, an arms race on the medical line; India's insurers (Niva Bupa, Star Health) show the opposite print, AI adjudication landing as a lower claims ratio with the expense ratio unmoved. Nothing new from UnitedHealth 7-10 Nov; PATIENT AI Act comments 1 Dec; the exit's channel clause (-15% from entry, or -8% against the S&P 500 health-care index over 10 days) is not near."
+   "stop_pct": 15
   }
  ]
 }

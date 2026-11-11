@@ -117,8 +117,8 @@
    "record.md",
    "scorecard.csv"
   ],
-  "sha256": "1296b84de6b3cdca0f410427cc405517db858fbe447ec6b1377cca92e4f2c76a",
-  "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status recorded in the runlog"
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md with a trailing newline, scorecard.csv as uploaded; the exact strings are in engine/record_snapshot; push status recorded in the runlog",
+  "sha256": "1296b84de6b3cdca0f410427cc405517db858fbe447ec6b1377cca92e4f2c76a"
  },
  {
   "date": "2026-11-09",
@@ -127,17 +127,27 @@
    "record.md",
    "scorecard.csv"
   ],
-  "sha256": "4ce032cc8499f46bfa8e90548b2e841eff850fa3c18bd276430e569b0aae7e9b",
-  "note": "second fingerprint of 9 Nov: record.md adds industry call I-2026-11-01 (private, embargoed) with its text hash 1a3c2e7ca1908e5e0ee73f73500ea925522e8095e95b051901f43fb4534bf8d1, made the same day outside the scheduled run; calls.json and scorecard.csv unchanged from the run's snapshot (sha256 1296b84d\u2026)"
+  "note": "second fingerprint of 9 Nov: record.md adds industry call I-2026-11-01 (private, embargoed) with its text hash 1a3c2e7ca1908e5e0ee73f73500ea925522e8095e95b051901f43fb4534bf8d1, made the same day outside the scheduled run; calls.json and scorecard.csv unchanged from the run's snapshot (sha256 1296b84d\u2026)",
+  "sha256": "4ce032cc8499f46bfa8e90548b2e841eff850fa3c18bd276430e569b0aae7e9b"
  },
  {
   "date": "2026-11-10",
-  "sha256": "d622384be9c8c4daf6ce574d9f21ce7b586f52d51d9953432768b001191ba55f",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "10 Nov run: the industry-calls table rebuilt from engine/industry_calls (the store's record had lacked the I-2026-11-01 row the 9 Nov one-off push carried); S05 Lynas exit restated; the store's fingerprint list now carries the second 9 Nov entry from the public file"
+  "note": "10 Nov run: the industry-calls table rebuilt from engine/industry_calls (the store's record had lacked the I-2026-11-01 row the 9 Nov one-off push carried); S05 Lynas exit restated; the store's fingerprint list now carries the second 9 Nov entry from the public file",
+  "sha256": "d622384be9c8c4daf6ce574d9f21ce7b586f52d51d9953432768b001191ba55f"
+ },
+ {
+  "date": "2026-11-11",
+  "sha256": "ff18786f1f38db57eefc29e9e38c6327f5a438242c315ec55279dd68f5372c8f",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "11 Nov run: S05 MP exit restated at the actual 10 Nov New York open; CoreWeave known binary resolved for S02; the 11 Nov daily entry added; corrections appended"
  }
 ]
