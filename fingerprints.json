@@ -142,12 +142,21 @@
  },
  {
   "date": "2026-11-11",
-  "sha256": "ff18786f1f38db57eefc29e9e38c6327f5a438242c315ec55279dd68f5372c8f",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "11 Nov run: S05 MP exit restated at the actual 10 Nov New York open; CoreWeave known binary resolved for S02; the 11 Nov daily entry added; corrections appended"
+  "note": "11 Nov run: S05 MP exit restated at the actual 10 Nov New York open; CoreWeave known binary resolved for S02; the 11 Nov daily entry added; corrections appended",
+  "sha256": "ff18786f1f38db57eefc29e9e38c6327f5a438242c315ec55279dd68f5372c8f"
+ },
+ {
+  "date": "2026-11-12",
+  "sha256": "c8b3bc5500b3534a5261d0c27306fd25cc5bf08c7a9e796c5f19204a488024b7",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ]
  }
 ]
