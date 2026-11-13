@@ -152,11 +152,21 @@
  },
  {
   "date": "2026-11-12",
-  "sha256": "c8b3bc5500b3534a5261d0c27306fd25cc5bf08c7a9e796c5f19204a488024b7",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
-  ]
+  ],
+  "sha256": "c8b3bc5500b3534a5261d0c27306fd25cc5bf08c7a9e796c5f19204a488024b7"
+ },
+ {
+  "date": "2026-11-13",
+  "sha256": "340e36a59f8c96b0d0acd8b8b2cb88017fb0c5adf959318fb87e21e7a4ab71a8",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "Friday run 13 Nov; S13 entered; private-markets call PM-2026-11-01; corrections dated 13 Nov"
  }
 ]
