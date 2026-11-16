@@ -161,12 +161,22 @@
  },
  {
   "date": "2026-11-13",
-  "sha256": "340e36a59f8c96b0d0acd8b8b2cb88017fb0c5adf959318fb87e21e7a4ab71a8",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "Friday run 13 Nov; S13 entered; private-markets call PM-2026-11-01; corrections dated 13 Nov"
+  "note": "Friday run 13 Nov; S13 entered; private-markets call PM-2026-11-01; corrections dated 13 Nov",
+  "sha256": "340e36a59f8c96b0d0acd8b8b2cb88017fb0c5adf959318fb87e21e7a4ab71a8"
+ },
+ {
+  "date": "2026-11-16",
+  "sha256": "e2ad4c135853e1d0747c50e4458119f3ce59f72bc4fc67c4614de1d012f2a53f",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "16 Nov run (Monday, before the US open); push attempted from the session"
  }
 ]

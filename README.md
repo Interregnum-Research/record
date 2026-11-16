@@ -8,13 +8,13 @@ Every call The Long View's engine makes is written here, dated and fingerprinted
 
 A call is a dated statement that something will happen by a given date, with a probability attached and a condition that would close it early. The probability means what it says: of the calls we make at 70%, about seven in ten should happen. So a miss at 70% is expected about three times in ten, and a single miss or a single hit proves very little on its own. What matters is whether, over many calls, the ones we made at 70% came true about 70% of the time.
 
-A call is scored hit when the stated outcome occurred and the position gained; partial when it occurred in part; miss when neither. The number of closed calls is still small: five have closed as of 13 November 2026, so none of the figures below says much yet about whether the engine is good at this. We publish them anyway, from the start, because a record that begins only once it looks good is not a record.
+A call is scored hit when the stated outcome occurred and the position gained; partial when it occurred in part; miss when neither. The number of closed calls is still small: five have closed as of 16 November 2026, so none of the figures below says much yet about whether the engine is good at this. We publish them anyway, from the start, because a record that begins only once it looks good is not a record.
 
 The paper book is a model portfolio with no real money in it. It is mostly cash by rule, it enters each call at the first price a reader could have traded at after the call was public, and it is kept only to test the calls against a benchmark. It is not a product and not a recommendation. Nothing on this page is investment advice.
 
 ## Where things stand
 
-As of 13 November 2026: thirteen calls made since 21 October 2026; five closed (one hit, two partials, two misses); eight open, of which five are entered, one is waiting on a dated condition and two are scenarios the engine follows at reduced or no size because its own probability fell short of its publication line. How close our probabilities were to what happened (the Brier score) is 0.185 on the five closed calls, a figure that becomes meaningful only after thirty.
+As of 16 November 2026: thirteen calls made since 21 October 2026; five closed (one hit, two partials, two misses); eight open, of which five are entered, one is waiting on a dated condition and two are scenarios the engine follows at reduced or no size because its own probability fell short of its publication line. How close our probabilities were to what happened (the Brier score) is 0.185 on the five closed calls, a figure that becomes meaningful only after thirty.
 
 Branch notes and expectations scored: one (the 7 November issue's expectation on China's rare-earth suspension; the other branch happened on 9 November).
 
@@ -22,7 +22,7 @@ Private-markets calls: one made (13 November), none yet checked. Industry calls:
 
 Gap calls: six live, none yet at its check-in date. Effect predictions on rules: thirteen made, none yet due; the first checks fall on 25 November and 10 December 2026.
 
-The paper book stood at 99.34 at the 12 November close, from 100 at its start on 26 October 2026, a drawdown of 2.2% from its high; over the same days the S&P 500 index rebased to 100 stood at 99.38 and the equal-weight AI basket at 98.15, so the book is 0.04 points behind the S&P 500 and 1.19 points ahead of the AI basket. About 76% of the book is cash, earning the three-month Treasury bill rate.
+The paper book stood at 99.28 at the 13 November close for its US holdings (16 November for Europe and Asia), from 100 at its start on 26 October 2026, a drawdown of 2.2% from its high; over the same days the S&P 500 index rebased to 100 stood at 98.98 and the equal-weight AI basket at 97.13, so the book is 0.31 points ahead of the S&P 500 and 2.15 points ahead of the AI basket. About 76% of the book is cash, earning the three-month Treasury bill rate.
 
 ## What we got wrong and what changed
 
@@ -37,7 +37,7 @@ The first monthly review (6 November 2026): of the nine structural themes the en
 
 ## Corrections
 
-Every correction is listed, dated, at the end of record.md under "Corrections"; the latest (13 November 2026) correct the Nvidia results date, the New Mexico permit date, the Bartz settlement distribution date, the superseded 18 November congressional briefing, and the ONS publication date.
+Every correction is listed, dated, at the end of record.md under "Corrections"; the latest (16 November 2026) correct the Pennsylvania PUC conference date (postponed on 28 October), the Character.AI sale schedule (bids 24 November, auction 1 December, hearing 3-4 December), the PJM backstop comment date, and list the day's secondary-only items.
 
 ## The files
 
