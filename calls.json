@@ -81,7 +81,7 @@
    "stop_pct": 12
   },
   {
-   "avg_pnl_pct": 2.51,
+   "avg_pnl_pct": -0.51,
    "call": "BUY",
    "catalyst_type": "earnings",
    "chain_length": 2,
@@ -95,38 +95,39 @@
    "known_binary_2026-11-09": "Known-binary rule, 9 Nov (CoreWeave Q3 after the close on 10 Nov is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a cut to commitments or capex): no entered leg is above 0.7 correlation to the AI basket (GEV 20-day correlation 0.57), but the event bears on S02's thesis (data-centre power demand), so the engine states its choice: HOLD FULL SIZE. The plausible adverse move is two realised daily sigmas: GE Vernova 9.2% (20-day realised vol 4.6% a day), Siemens Energy 8.4%; at 2.5% a leg that is a loss of about 0.44 points of book value and would take the trade from -2.6% to about -11.4%, still inside the -15% stop. Holding is right because S02 is structural (turbine backlog to 2028 with 98% of 2027 hedged at the utilities) and a neocloud's quarterly commitments do not change the delivery slots already sold; a CoreWeave capex cut of 20% or more would be new evidence on the thesis and is read at the next run, not held through.",
    "known_binary_2026-11-10": "Known-binary rule, 10 Nov (CoreWeave Q3 after the close today is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a cut to commitments or capex, or a leverage print above Fitch's 4.0x trigger that forces rating-constrained selling; Polymarket 21% for a Moody's or S&P downgrade by 31 Dec): no entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day correlation 0.62, Siemens Energy 0.51, both up from 9 Nov), but the event bears on S02's thesis, so the engine states its choice: HOLD FULL SIZE. The plausible adverse move is two realised daily sigmas: GE Vernova about 9%, Siemens Energy about 8%; at 2.5% a leg that is a loss of about 0.43 points of book value and would take the trade from +0.4% to about -8%, inside the -15% stop and short of the at-risk line (-7.5%) by a fraction. Holding is right because S02 is structural (turbine slots sold to 2028-29; Mitsubishi Heavy raised its GTCC order forecast 25% on 6 Nov; Vistra's 2027 hedged 98%) and a neocloud's quarterly commitments do not change delivery slots already sold; a CoreWeave capex cut of 20% or more with a named Texas cancellation would be read as a demand signal for the 2029 slot book and the position reviewed at the 11 Nov run. 'Two-sided' is not the reason; the reason is that the adverse branch does not reach the stop and the thesis does not depend on the print.",
    "known_binary_2026-11-13": "Known-binary rule, 13 Nov (Nvidia Q3 FY27 after the close on Tuesday 17 Nov, confirmed by its 8-K and 28 Oct notice, is the one dated event inside five trading days whose adverse branch the engine prices at about 35%: a guide that removes China revenue or cuts data-centre sequential growth under an interim CEO; the APEC Shenzhen meeting 18-19 Nov is the second, adverse branch about 30%, bearing on S11 which holds no position): no entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day correlation 0.59, Siemens Energy -0.09), but the market has sold GE Vernova about 25% on 'data-centre fears' so the print bears on its price; the engine states its choice: HOLD FULL SIZE, reconfirmed at the 16 Nov run. The plausible adverse move is two realised daily sigmas on GE Vernova, about 9%, and about 3% on Siemens Energy (which has already reported); at 2.5% a leg that is a loss of about 0.30 points of book value and takes the trade from +4.6% to about -1.4%, inside the -15% stop and the -7.5% at-risk line. Holding is right because the thesis is turbine slots sold to 2028-29 at rising prices (GEV Q3: Power EBITDA margin +800bp on 'higher price'; reservations converting to firm orders at 13 GW a quarter), and a neocloud's or chip maker's quarter does not change delivered slots; the one thing that would is a named cancellation above 4 GW with the deposit refunded, which no primary shows. 'Two-sided' is not the reason.",
+   "known_binary_2026-11-16": "Known-binary rule, 16 Nov (the run before the event): Nvidia Q3 FY27 after the close on Tuesday 17 Nov is the one dated event inside five trading days whose adverse branch the engine prices at about 35% (a guide that removes China revenue or cuts data-centre sequential growth under an interim CEO); APEC Shenzhen 18-19 Nov is the second (adverse about 30%; bears on S11, no position). No entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day 0.61, Siemens Energy -0.12), but the market has sold GE Vernova on data-centre fears and the SoftBank give-back (WSJ: more than 13 GW, mostly GE Vernova; SoftBank's own report: a $3.73bn loss and up to $2.1bn of ten-year rebates), so the print bears on S02's price. Decision, stated and RECONFIRMED: HOLD FULL SIZE. The trade stands at +2.51% (GEV -3.02%, ENR.DE +8.04%). Plausible adverse move: two realised daily sigmas on GE Vernova, about 9%, about 3% on Siemens Energy; at 2.5% a leg that is about 0.30 points of book value and takes S02 to about -3.5%, inside the -15% stop and the -7.5% at-risk line. Reason: the thesis is turbine slots sold to 2028-29 at rising prices; a chip maker's quarter does not change delivered slots, and the SoftBank give-back is new evidence on PRICE per gigawatt (the rebate), not on volume, which GE Vernova says had no impact and which the Q4 print (21-22 Jan) tests; the one thing that would change the decision is a cut to GE Vernova's or Siemens Energy's 2027-28 delivery or order guidance, which no primary shows. 'Two-sided' is not the reason. The position may be restored or reviewed at the 18 Nov run with the print known.",
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": 0.61,
+     "corr_ai_20d": 0.65,
      "currency": "USD",
      "entry": 828.113,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 803.1300048828125,
-     "last_date": "2026-11-13",
-     "month_move_pct": -13.31,
-     "pnl_pct": -3.02,
+     "last": 763.5700073242188,
+     "last_date": "2026-11-16",
+     "month_move_pct": -17.11,
+     "pnl_pct": -7.79,
      "published_level": 925.92,
      "ticker": "GEV"
     },
     {
-     "corr_ai_20d": -0.12,
+     "corr_ai_20d": 0.58,
      "currency": "EUR",
      "entry": 119.6,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 129.22000122070312,
-     "last_date": "2026-11-16",
-     "month_move_pct": -4.27,
-     "pnl_pct": 8.04,
+     "last": 127.69999694824219,
+     "last_date": "2026-11-17",
+     "month_move_pct": -5.39,
+     "pnl_pct": 6.77,
      "published_level": 133.64,
      "ticker": "ENR.DE"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "at risk 23 Oct: avg -10.4% (GEV 827.42, ENR 120.18); GE Vernova Q3 is 28 Oct 07:30 ET (calendar corrected); exit condition unchanged (backlog <100 GW)",
    "note_2026-10-26": "26 Oct: still at risk, avg -9.9% (GEV 815.00 at -12.0% alone, 23 Oct close; ENR 123.24 EUR +3.0% on the day, 26 Oct), 5.1% to the -15% stop on the average; GE Vernova Q3 28 Oct 07:30 ET; NextEra federal hubs (16.5 GW gas, Japan/Korea funded) support the backlog thesis; hold",
@@ -143,6 +144,7 @@
    "note_2026-11-09": "9 Nov: on track, avg -2.61% (GEV 774.11 at the 6 Nov close, -6.5%; ENR.DE 121.14 at the 9 Nov print, +1.3%); channel clause added to the exit; known-binary statement for CoreWeave Q3 (hold full size, adverse move stated).",
    "note_2026-11-10": "10 Nov: on track, avg +0.43% (GEV 829.34 at the 9 Nov close, +0.15%, after +4.2% on 9 Nov; ENR.DE 120.46 at the 10 Nov print, +0.72%). Evidence: Mitsubishi Heavy raised its FY GTCC order forecast 25% to JPY3.0tn with order value rising faster than units (19 units/8 GW vs 23/10 GW), JPY500bn for hot-gas-path parts and a first buyback (6 Nov): the oligopoly prices scarcity rather than adding plants, which supports the pricing leg; CRA's PJM forecast review haircuts uncontracted and moratorium-area projects but still shows an 11.5 GW gap by 2030, so equipment demand holds while generator pricing is forecast away. Known-binary rule restated for CoreWeave Q3 tonight (below). Siemens Energy Q4 FY26 on 19 Nov enters the five-day window on the 12 Nov run.",
    "note_2026-11-13": "13 Nov: on track, avg +4.6% (GEV $818.49 -1.2% at the 12 Nov close; Siemens Energy EUR132.00 +10.4% at the 13 Nov print); GEV Q3 8-K re-read: 122 GW backlog plus reservations, reservations 58 GW (13 GW converted), 'at least 130 GW' by year-end, Power EBITDA margin 21.4% on 'higher price'; Morgan Stanley (12 Nov, secondary) frames the ~25% fall as a possible ~4 GW SoftBank cancellation against deposits of '20% or more' that GEV keeps; Legrand (5 Nov) shows the competitive layer earning no scarcity rent, which sharpens the turbine layer's; the 10-year at 5.10% re-discounts the whole build; Nvidia reports 17 Nov under an interim CEO (known-binary decision below)",
+   "note_2026-11-16": "16 Nov: SoftBank's H1 report (10 Nov) books a JPY597.2bn SB7 loss and discloses up to $2.1bn of ten-year rebates on future equipment purchases; WSJ (secondary) puts the returned reservations above 13 GW, mostly GEV; GEV: 'no negative or positive impact'. Read as a price-per-GW test for the Q4 print (T35, T57, T59), not a thesis break; exit condition unchanged.",
    "prev_mark_status": "on track",
    "prob": 0.65,
    "prob_raw": 0.65,
@@ -156,8 +158,8 @@
    },
    "status": "entered",
    "stop_pct": 15,
-   "known_binary_2026-11-16": "Known-binary rule, 16 Nov (the run before the event): Nvidia Q3 FY27 after the close on Tuesday 17 Nov is the one dated event inside five trading days whose adverse branch the engine prices at about 35% (a guide that removes China revenue or cuts data-centre sequential growth under an interim CEO); APEC Shenzhen 18-19 Nov is the second (adverse about 30%; bears on S11, no position). No entered leg is above 0.7 correlation to the AI basket (GE Vernova 20-day 0.61, Siemens Energy -0.12), but the market has sold GE Vernova on data-centre fears and the SoftBank give-back (WSJ: more than 13 GW, mostly GE Vernova; SoftBank's own report: a $3.73bn loss and up to $2.1bn of ten-year rebates), so the print bears on S02's price. Decision, stated and RECONFIRMED: HOLD FULL SIZE. The trade stands at +2.51% (GEV -3.02%, ENR.DE +8.04%). Plausible adverse move: two realised daily sigmas on GE Vernova, about 9%, about 3% on Siemens Energy; at 2.5% a leg that is about 0.30 points of book value and takes S02 to about -3.5%, inside the -15% stop and the -7.5% at-risk line. Reason: the thesis is turbine slots sold to 2028-29 at rising prices; a chip maker's quarter does not change delivered slots, and the SoftBank give-back is new evidence on PRICE per gigawatt (the rebate), not on volume, which GE Vernova says had no impact and which the Q4 print (21-22 Jan) tests; the one thing that would change the decision is a cut to GE Vernova's or Siemens Energy's 2027-28 delivery or order guidance, which no primary shows. 'Two-sided' is not the reason. The position may be restored or reviewed at the 18 Nov run with the print known.",
-   "note_2026-11-16": "16 Nov: SoftBank's H1 report (10 Nov) books a JPY597.2bn SB7 loss and discloses up to $2.1bn of ten-year rebates on future equipment purchases; WSJ (secondary) puts the returned reservations above 13 GW, mostly GEV; GEV: 'no negative or positive impact'. Read as a price-per-GW test for the Q4 print (T35, T57, T59), not a thesis break; exit condition unchanged."
+   "note_2026-11-17": "17 Nov (pre-US-open; GEV at the 16 Nov close, ENR.DE at the 17 Nov print): on track, avg -0.5% (GEV $763.57 -7.8%, after -4.9% on 16 Nov with the AI basket -10.3% from its 20-day high; Siemens Energy EUR127.70 +6.8%); 14.5% to the -15% stop on the average, GEV alone 7.2% from a 15% leg fall; no exit condition triggered (no OEM guidance cut). Evidence today: GE Vernova's Q3 8-K re-read (reservations to 2032, no cancellations named); the used-turbine market at ~$1.5-1.7m/MW against new $2-2.5m/MW (secondary), so a forfeited slot is resold at a premium rather than discounted; PJM's 16 Nov ride-through tariff makes on-site generation a regulated grid behaviour (a cost on the campus, not on the turbine maker); Barr's $3tn off-balance-sheet count and the Anthropic pricing (18 Nov) are the week's demand-side binaries. Nvidia reports tonight (known-binary decision below).",
+   "known_binary_2026-11-17": "Known-binary rule, 17 Nov (the event day): Nvidia Q3 FY27 after the close today is the dated event inside five trading days whose adverse branch the engine prices at about 35% (a guide that removes China revenue or cuts data-centre sequential growth under an interim CEO; Polymarket today: 'no new CEO by end-2028' 7.8%; Jensen Huang rejoins by 31 Dec 2026 8%); APEC Shenzhen 18-19 Nov with the BIS remote-access rule effective 19 Nov is the second (adverse about 30%; bears on S11, no position); Anthropic prices 18 Nov (no leg). GE Vernova's 20-day correlation to the AI basket is 0.65 (up from 0.61; still below 0.7), Siemens Energy 0.58. The market has already taken GE Vernova down 4.9% on 16 Nov with the basket. Decision, stated and RECONFIRMED for the third run: HOLD FULL SIZE. The trade stands at -0.5% (GEV -7.8%, ENR.DE +6.8%). Plausible adverse move: two realised daily sigmas on GE Vernova, about 9-10% (realised vol has risen), about 3% on Siemens Energy; at 2.5% a leg that is about 0.32 points of book value and takes S02 to about -6.8%, inside the -15% stop and just inside the -7.5% at-risk line; GE Vernova alone would sit near -17% on its leg, which is not a stop (the stop is on the average) but would make it the leg to review. Reason: the exit condition is a cut to 2027-28 delivery or order guidance at GE Vernova or Siemens Energy, and a chip maker's quarter does not change delivered slots; today's evidence (used turbines clearing at 60-75% of new, reservations to 2032, Mitsubishi's raised forecast) runs with the thesis. 'Two-sided' is not the reason. Halving was considered and rejected because the position is structural and 14.5% from its stop; the 18 Nov run reviews S02 with the print known and may restore, hold or reduce on a stated reason."
   },
   {
    "avg_pnl_pct": null,
@@ -214,7 +216,7 @@
    "stop_pct": 20
   },
   {
-   "avg_pnl_pct": -1.9,
+   "avg_pnl_pct": -1.64,
    "call": "PAIR short WIT / long TCS",
    "catalyst_type": "earnings",
    "chain_length": 2,
@@ -228,36 +230,36 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": -0.25,
+     "corr_ai_20d": -0.19,
      "currency": "USD",
      "entry": 2.12,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 2.119999885559082,
-     "last_date": "2026-11-13",
-     "month_move_pct": 13.37,
-     "pnl_pct": 0.0,
+     "last": 2.109999895095825,
+     "last_date": "2026-11-16",
+     "month_move_pct": 8.21,
+     "pnl_pct": 0.47,
      "published_level": 2.19,
      "side": "short",
      "ticker": "WIT"
     },
     {
-     "corr_ai_20d": -0.26,
+     "corr_ai_20d": -0.45,
      "currency": "INR",
      "entry": 2500,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 2405.0,
-     "last_date": "2026-11-16",
-     "month_move_pct": 4.34,
-     "pnl_pct": -3.8,
+     "last": 2406.60009765625,
+     "last_date": "2026-11-17",
+     "month_move_pct": -2.37,
+     "pnl_pct": -3.74,
      "published_level": 2530,
      "ticker": "TCS.NS"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "Infosys Q2 23 Oct: FY27 guide cut to 1-2% on pricing pressure; Wipro weakest (large deals -59% QoQ, headcount -6,716), TCS strongest; entries marked at 23 Oct close WIT 2.19 / TCS 2,530 for scoring; 65% keeps it below the publication line",
    "note_2026-10-26": "26 Oct: on track, avg +1.9% (WIT 2.11 short +3.7%; TCS 2,535 INR +0.2%); Coforge (23 Oct) booking AI margin inside fixed-price work, Booz Allen losing it inside cost-plus: contract form decides who keeps the dividend; next print Mphasis 5 Nov",
@@ -286,7 +288,8 @@
     "surprise": 2
    },
    "status": "entered 2026-10-23 (Infosys condition met); below 70% line, scenario-sized",
-   "stop_pct": 10
+   "stop_pct": 10,
+   "note_2026-11-17": "17 Nov: on track, avg -1.6% (WIT $2.11 short +0.5% at the 16 Nov close; TCS INR2,406.60 -3.7% at the 17 Nov close); Wipro filed on 16 Nov a cancellation of its 19 Nov non-deal roadshow ('next date pending', no reason; screener.in, filing PDF not opened) and no JM Financial deck appeared on wipro.com by 13:45 UTC, so the week's two Wipro readouts yield nothing; Genpact (-3.5% heads, +7.3% revenue) and Teleperformance (Trust & Safety shrinking on client automation) show the BPO version of the margin-gap thesis; TeamLease's BFSI share 26% -> 20.8% shows the Indian bank rung going first; ONS payrolls fell among 25-34s, not 18-24s. Exit's channel clause (pair -10%, or Wipro +8 points vs TCS over 10 days) not near."
   },
   {
    "avg_pnl_pct": 10.46,
@@ -466,7 +469,7 @@
    "stop_pct": 15
   },
   {
-   "avg_pnl_pct": 7.68,
+   "avg_pnl_pct": 8.78,
    "call": "BUY",
    "catalyst_type": "regulator",
    "chain_length": 3,
@@ -480,61 +483,61 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": 0.05,
+     "corr_ai_20d": 0.55,
      "currency": "EUR",
      "entry": 231.8,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 240.6999969482422,
-     "last_date": "2026-11-16",
-     "month_move_pct": -4.97,
-     "pnl_pct": 3.84,
+     "last": 240.0,
+     "last_date": "2026-11-17",
+     "month_move_pct": -5.25,
+     "pnl_pct": 3.54,
      "published_level": 249.1,
      "ticker": "SU.PA"
     },
     {
-     "corr_ai_20d": -0.02,
+     "corr_ai_20d": 0.46,
      "currency": "EUR",
      "entry": 99.8,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 106.75,
-     "last_date": "2026-11-16",
-     "month_move_pct": -2.42,
-     "pnl_pct": 6.96,
+     "last": 108.19999694824219,
+     "last_date": "2026-11-17",
+     "month_move_pct": -1.1,
+     "pnl_pct": 8.42,
      "published_level": 108.35,
      "ticker": "PRY.MI"
     },
     {
-     "corr_ai_20d": -0.05,
+     "corr_ai_20d": 0.49,
      "currency": "EUR",
      "entry": 114,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 127.30000305175781,
-     "last_date": "2026-11-16",
-     "month_move_pct": 0.47,
-     "pnl_pct": 11.67,
+     "last": 130.5,
+     "last_date": "2026-11-17",
+     "month_move_pct": 3.0,
+     "pnl_pct": 14.47,
      "published_level": 122,
      "ticker": "NEX.PA"
     },
     {
-     "corr_ai_20d": -0.12,
+     "corr_ai_20d": 0.48,
      "currency": "EUR",
      "entry": 124.5,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 134.75,
-     "last_date": "2026-11-16",
-     "month_move_pct": 0.56,
-     "pnl_pct": 8.23,
+     "last": 135.3000030517578,
+     "last_date": "2026-11-17",
+     "month_move_pct": 0.97,
+     "pnl_pct": 8.67,
      "published_level": 131.3,
      "ticker": "LR.PA"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "at risk 23 Oct: avg -7.6% (SU 230.85, PRY 98.14, NEX 113.20, LR 123.00); Codelco EU copper premium record $350/t for 2027; Denmark ranks DCs last in grid allocation; gigafactory bids close 12 Nov",
    "note_2026-10-26": "26 Oct: back to on track, avg -4.5% (SU 235.35, PRY 102.75, NEX 117.20, LR 126.85 EUR, 26 Oct intraday) after Europe rallied on the Moody's France hold; EuroHPC gigafactory bids close 12 Nov (only EUR1bn of EUR5bn legally committed); no alert (recovery waits for the monthly issue)",
@@ -563,7 +566,8 @@
     "surprise": 2
    },
    "status": "entered",
-   "stop_pct": 15
+   "stop_pct": 15,
+   "note_2026-11-17": "17 Nov: on track, avg +8.8% (Schneider EUR240.00 +3.5%; Prysmian EUR108.20 +8.4%; Nexans EUR130.50 +14.5%; Legrand EUR135.30 +8.7% at the 17 Nov print); no order release from any leg since 13 Nov; the UK government response (2 Nov, opened today) puts a Commitment Fee of GBP237,500-712,500 per MW on >40 MW connections and gives strategic demand ministerial priority, which rations the queue but keeps the equipment demand of the connections that survive; Hitachi Energy India's orders +86% with exports +184% (H1) is the risk to watch for the basket (Indian makers taking share at US prices); copper stocks +33% since 1 Oct remain a cost cushion for the cable legs."
   },
   {
    "avg_pnl_pct": -4.29,
@@ -619,7 +623,7 @@
    "stop_pct": null
   },
   {
-   "avg_pnl_pct": 0.52,
+   "avg_pnl_pct": -1.5,
    "call": "BUY in halves",
    "catalyst_type": "court",
    "chain_length": 2,
@@ -633,48 +637,48 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": 0.12,
+     "corr_ai_20d": -0.25,
      "currency": "EUR",
      "entry": 15.925,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 17.579999923706055,
-     "last_date": "2026-11-16",
-     "month_move_pct": 8.08,
-     "pnl_pct": 10.39,
+     "last": 17.135000228881836,
+     "last_date": "2026-11-17",
+     "month_move_pct": 5.35,
+     "pnl_pct": 7.6,
      "published_level": 16.2,
      "ticker": "UMG.AS"
     },
     {
-     "corr_ai_20d": -0.51,
+     "corr_ai_20d": -0.47,
      "currency": "USD",
      "entry": 121.97,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 109.30000305175781,
-     "last_date": "2026-11-13",
-     "month_move_pct": 1.31,
-     "pnl_pct": -10.39,
+     "last": 108.29000091552734,
+     "last_date": "2026-11-16",
+     "month_move_pct": -0.66,
+     "pnl_pct": -11.22,
      "published_level": 115.26,
      "ticker": "TRI"
     },
     {
-     "corr_ai_20d": 0.2,
+     "corr_ai_20d": -0.48,
      "currency": "GBp",
      "entry": 3037,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 3084.0,
-     "last_date": "2026-11-16",
-     "month_move_pct": 5.83,
-     "pnl_pct": 1.55,
+     "last": 3010.0,
+     "last_date": "2026-11-17",
+     "month_move_pct": 3.29,
+     "pnl_pct": -0.89,
      "published_level": 2973,
      "ticker": "REL.L"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "RELX Legal +10% (22 Oct), Protege >50% US adoption with spend uplift; Meta ordered to name who approved torrenting (19 Oct); avg +2.8%",
    "note_2026-10-26": "26 Oct: on track, avg +2.0% (UMG 15.90 EUR, TRI 123.17, REL 3,004p); AICPA/AIUC AI-agent attestation and Bureau Veritas EUR1bn AI target add to the content-and-assurance rent thesis",
@@ -703,10 +707,11 @@
     "surprise": 1
    },
    "status": "entered",
-   "stop_pct": 15
+   "stop_pct": 15,
+   "note_2026-11-17": "17 Nov: on track, avg -1.5% (UMG EUR17.135 +7.6% at the 17 Nov print; Thomson Reuters $108.29 -11.2% at the 16 Nov close; RELX 3,010p -0.9%); TRI is the leg to watch at -11.2% (the average is 13.5% from the -15% stop; the MSCI World underperformance clause is not near). Elvis Presley Enterprises v. Suno's amended complaint (13 Nov, opened): 859 works, a prayer to impound or destroy 'model weights' under 17 U.S.C. 503(b), up to $150,000 a work; against the sceptical UK Court of Appeal bench in Getty v Stability, the remedy that sets training-data prices is now tested in two jurisdictions, with the US the one pricing the weights; Suno's response ~late Nov to early Dec; Character.AI's chat corpus is priced at ~6 cents a user in a $10m APA that bypasses re-consent (objections 18 Nov)."
   },
   {
-   "avg_pnl_pct": -29.38,
+   "avg_pnl_pct": -27.77,
    "call": "AVOID",
    "catalyst_type": "data_print",
    "chain_length": 2,
@@ -720,19 +725,19 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": 0.25,
+     "corr_ai_20d": 0.18,
      "currency": "USD",
      "entry": 4.97,
-     "last": 3.509999990463257,
-     "last_date": "2026-11-13",
-     "month_move_pct": -31.04,
-     "pnl_pct": -29.38,
+     "last": 3.5899999141693115,
+     "last_date": "2026-11-16",
+     "month_move_pct": -27.33,
+     "pnl_pct": -27.77,
      "ticker": "COUR"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "scenario (no position)",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "Korea and UK universities move to invigilated exams (Konkuk 23 Oct; ISE evidence); COUR 5.07",
    "note_2026-10-26": "26 Oct: scenario, COUR 5.08; ISE 2026: 92% of UK employers report applicant AI misconduct, 141 applications per vacancy",
@@ -747,7 +752,7 @@
    "note_2026-11-06": "6 Nov: scenario, COUR 3.75 (5 Nov close), -24.5% from the 21 Oct level; no position. UK DBT survey (29 Oct): adoption 32% from 16%, reported productivity gains falling; Korea's suneung sits 19 Nov under the smart-glasses rules with 82% of proctors saying the procedure cannot detect them.",
    "note_2026-11-09": "9 Nov: scenario, COUR 3.74 (-24.8% from the 21 Oct level); NSC: computer science enrolment -12.4% while health majors grow, the demand shift the scenario rests on; channel clause added.",
    "note_2026-11-10": "10 Nov: scenario, COUR 3.75 (-24.6% from the 21 Oct level); PhysicsWallah (India) cut headcount for the first time with revenue +18% and plans to sell its AI tutor at twice the online-batch price: the demand shift from human instruction to machine tutoring the scenario rests on, now visible in a second market.",
-   "prev_mark_status": "scenario",
+   "prev_mark_status": "scenario (no position)",
    "prob": 0.6,
    "prob_raw": 0.6,
    "resolves": "2027-10-21",
@@ -759,7 +764,8 @@
     "surprise": 1
    },
    "status": "scenario (no position)",
-   "stop_pct": null
+   "stop_pct": null,
+   "note_2026-11-17": "17 Nov: scenario, COUR $3.59 (-27.8% from the 21 Oct level); Korea's PM address (17 Nov) commits ~8,400 extra invigilators, telecom-data tracing and retroactive 10-year bans for the 19 Nov suneung: the verification premium the scenario rests on is now a state budget line."
   },
   {
    "avg_pnl_pct": null,
@@ -776,29 +782,29 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": -0.12,
+     "corr_ai_20d": -0.05,
      "currency": "USD",
      "entry": null,
-     "last": 94.37999725341797,
-     "last_date": "2026-11-13",
-     "month_move_pct": -15.07,
+     "last": 90.62000274658203,
+     "last_date": "2026-11-16",
+     "month_move_pct": -16.95,
      "pnl_pct": null,
      "ticker": "BABA"
     },
     {
-     "corr_ai_20d": -0.05,
+     "corr_ai_20d": -0.35,
      "currency": "HKD",
      "entry": null,
-     "last": 390.3999938964844,
-     "last_date": "2026-11-16",
-     "month_move_pct": -6.56,
+     "last": 376.0,
+     "last_date": "2026-11-17",
+     "month_move_pct": -10.0,
      "pnl_pct": null,
      "ticker": "0700.HK"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "waiting (MOFCOM No. 48 final text; comments closed 15 Nov)",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "MOFCOM spokesperson 21 Oct: API/SaaS/on-device use outside the weights controls; own overseas cloud auto-licensed; BABA 101.82 / 0700 386.00; waiting",
    "note_2026-10-26": "26 Oct: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 99.64 / 0700 386.40 HKD; No. 48 thresholds (10^26 FLOP, 10,000 cards, top-10 ranking) make frontier Chinese labs unacquirable and push foreign revenue into API form, which supports the platform thesis; both US-China stays still unextended",
@@ -814,7 +820,8 @@
    "note_2026-11-09": "9 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 109.45 (6 Nov close), 0700.HK 418.40 (9 Nov close); No. 58 of 2026 extends the rare-earth suspension to 10 Jan 2027, so both US-China gates now roll together; no reaction to No. 48 found 6-9 Nov; channel clause added.",
    "note_2026-11-10": "10 Nov: waiting (MOFCOM No. 48 comments close 15 Nov); BABA 105.38 (9 Nov close), 0700.HK 417.80 (10 Nov close). MOFCOM's 16 Oct Q&A (via the Cloud Security Alliance note) says API, app, web, SaaS and on-device use are not exports of a large model, local deployment abroad needs a licence and automatic licensing may apply on a Chinese firm's own overseas cloud: on the current text the entry condition (catalogue not widened to API access) holds, and the 15 Nov close, not an adoption notice, is the next test. China's gates both bind: ~600,000 H200s still held in Hong Kong, an 8-GPU H200 server above CNY6m in mainland China (~3x a year earlier; EET China, secondary). The Tariff Commission's 10 Nov notice warns of countermeasures if the US re-bases IEEPA tariffs on Section 301; APEC 18-19 Nov.",
    "note_2026-11-13": "13 Nov: waiting (BABA $94.36; Tencent HK$386.60); MOFCOM No. 48 primary opened: the temporary registration gate has been live since 16 Oct and covers any 'change of ownership or actual control' of domestic AI technology to an overseas party; open-source releases excluded, so the S11 condition holds on the current text; MOFCOM silent at its 12 Nov presser; comments close Sunday 15 Nov; the trade waits for the final text, not the close of comments; Nvidia's CEO resigned 11 Nov and three committees call him for 1-3 Dec, so the H200 gate closes from the US side too; SMIC at 97.3% utilisation with 16-24 month tool lead times says China cannot substitute, which makes the hold a bargaining chip at Shenzhen (18-19 Nov); Alibaba lists T-Head in Hong Kong (secondary); Alibaba results 19 Nov, Tencent 18 Nov",
-   "prev_mark_status": "waiting",
+   "note_2026-11-16": "16 Nov: MOFCOM/MOST No. 48 comment window closed 15 Nov with no final text, extension or statement (primary page still the 16 Oct draft; page MakeTime 16 Nov, no visible change); interim registration continues; the 'actual control' clause and the open-source exclusion stand as drafted; the entry condition ('adopted without widening the catalogue to API access') cannot be met until something is adopted, so S11 stays WAITING; next readable points: MOFCOM presser 19 Nov, APEC readouts 19 Nov, Alibaba results 19 Nov. Status label kept as 'waiting (MOFCOM 15 Nov)' for continuity; the date is now the final text.",
+   "prev_mark_status": "waiting (MOFCOM No. 48 final text; comments closed 15 Nov)",
    "prob": 0.55,
    "prob_raw": 0.55,
    "resolves": "2027-11-15",
@@ -827,10 +834,10 @@
    },
    "status": "waiting (MOFCOM No. 48 final text; comments closed 15 Nov)",
    "stop_pct": 15,
-   "note_2026-11-16": "16 Nov: MOFCOM/MOST No. 48 comment window closed 15 Nov with no final text, extension or statement (primary page still the 16 Oct draft; page MakeTime 16 Nov, no visible change); interim registration continues; the 'actual control' clause and the open-source exclusion stand as drafted; the entry condition ('adopted without widening the catalogue to API access') cannot be met until something is adopted, so S11 stays WAITING; next readable points: MOFCOM presser 19 Nov, APEC readouts 19 Nov, Alibaba results 19 Nov. Status label kept as 'waiting (MOFCOM 15 Nov)' for continuity; the date is now the final text."
+   "note_2026-11-17": "17 Nov: waiting (BABA $90.62 at the 16 Nov close, -15.1% over the month; Tencent HK$376.00 at the 17 Nov close, -6.6%); No. 48 still a draft (both mofcom.gov.cn copies, MakeTime 17 Nov 07:12, no visible change); NEW: the BIS remote-access interim final rule (released 16 Nov; effective 19 Nov) caps compute to D:5-parented customers anywhere at 12m TPP and licence-lists Singapore, Malaysia, Thailand, Indonesia and Brazil; MOFCOM's 17 Nov statement threatens countermeasures and names neither No. 48 nor any firm: widening the catalogue to API or SaaS access is a proportionate reply and is S11's exit condition, so the risk to the entry condition has risen; the 19 Nov MOFCOM presser (the day the US rule takes effect and the Shenzhen bilateral meets) and Alibaba's results (19 Nov) are the test. No position; the Hang Seng Tech feed (^HSTECH) still returns 404, so the pre-entry index clause is read from the two legs (both well inside 15% of their 20-day highs)."
   },
   {
-   "avg_pnl_pct": -2.75,
+   "avg_pnl_pct": -1.66,
    "call": "HOLD",
    "catalyst_type": "regulator",
    "chain_length": 2,
@@ -844,22 +851,22 @@
    "learning_note": "rubric scores taken from the nearest 23 Oct signals_log entry; the Pass One (21 Oct) source scores are not in signals_log",
    "legs": [
     {
-     "corr_ai_20d": 0.29,
+     "corr_ai_20d": 0.2,
      "currency": "USD",
      "entry": 418.99,
      "entry_date": "2026-10-26",
      "entry_rule": "reader entry: first open after the call became public (record of 24 Oct)",
-     "last": 407.4599914550781,
-     "last_date": "2026-11-13",
-     "month_move_pct": 0.19,
-     "pnl_pct": -2.75,
+     "last": 412.0199890136719,
+     "last_date": "2026-11-16",
+     "month_move_pct": 2.64,
+     "pnl_pct": -1.66,
      "published_level": 417,
      "ticker": "UNH"
     }
    ],
    "made": "2026-10-21",
    "mark_status": "on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 29 Oct); blank",
    "note_2026-10-23": "Elevance 21 Oct: benefit expense ratio 90.6%, AI claims review, days in claims payable +3.5; Molina silent on AI; UNH 424.98 +1.9%",
    "note_2026-10-26": "26 Oct: on track, UNH 418.09 (+0.3%); HCA and Centene 27 Oct, Tenet 29 Oct (payers' AI down-codes, providers' AI up-codes: watch revenue per admission); Texas AG suit against OpenAI (23 Oct) and the Character.AI states' objection extend the liability thread",
@@ -888,10 +895,11 @@
     "surprise": 1
    },
    "status": "entered",
-   "stop_pct": 15
+   "stop_pct": 15,
+   "note_2026-11-17": "17 Nov: on track, avg -1.7% (UNH $412.02 at the 16 Nov close, +1.1% on the day); Humana's Q3 call (6 Nov, transcript opened today): 2027 medical trend guided to 8-9% (2026 at the low end of 7-8%), Part D +14-15% on the drug pipeline, no AI mention, 2027 margin 'largely driven by the pricing'; UNH's Q3 MCR of 88.4% carried $610m of favourable reserve development with 'operational agentification' credited on the admin line only; the engine's read: the administrative dividend (~0.7pt of premium a year) is now smaller than one point of medical trend, so the exit test (2027 MCR guided above 2026) turns on pricing and reserves, not AI, and the condition risk has risen; the PATIENT AI Act draft (sec. 403, opened today) would price autonomous reads at compute plus validation and says nothing about prior authorisation while WISeR runs (T63). Exit's channel clause (-15% from entry, or -8% vs the S&P 500 health-care index over 10 days) not near. No known binary inside five trading days bears on UNH."
   },
   {
-   "avg_pnl_pct": 1.88,
+   "avg_pnl_pct": 0.8,
    "call": "PAIR long Pearson / short Coursera (SCENARIO, half size)",
    "catalyst_type": "earnings",
    "chain_length": 2,
@@ -905,29 +913,29 @@
    "known_binary_2026-11-12": "Known-binary rule at proposal: no dated event inside five trading days bears on either leg (Pearson FY results late Feb; Coursera Q4 early Feb; the 19 Nov suneung bears on the thesis but not on either leg's price); 20-day correlation to the AI basket to be computed at entry; sizing already halved as a scenario, no further reduction",
    "legs": [
     {
-     "corr_ai_20d": -0.15,
+     "corr_ai_20d": -0.18,
      "currency": "USD",
      "entry": 17.22,
      "entry_date": "2026-11-13",
      "entry_rule": "reader entry: the 13 Nov New York open (first open after the call became public in the record of 12 Nov)",
-     "last": 17.389999389648438,
-     "last_date": "2026-11-13",
-     "month_move_pct": -2.63,
-     "pnl_pct": 0.99,
+     "last": 17.399999618530273,
+     "last_date": "2026-11-16",
+     "month_move_pct": -4.61,
+     "pnl_pct": 1.05,
      "published_level": null,
      "side": "long",
      "ticker": "PSO"
     },
     {
-     "corr_ai_20d": 0.25,
+     "corr_ai_20d": 0.18,
      "currency": "USD",
      "entry": 3.61,
      "entry_date": "2026-11-13",
      "entry_rule": "reader entry: the 13 Nov New York open (first open after the call became public in the record of 12 Nov)",
-     "last": 3.509999990463257,
-     "last_date": "2026-11-13",
-     "month_move_pct": -31.04,
-     "pnl_pct": 2.77,
+     "last": 3.5899999141693115,
+     "last_date": "2026-11-16",
+     "month_move_pct": -27.33,
+     "pnl_pct": 0.55,
      "published_level": null,
      "side": "short",
      "ticker": "COUR"
@@ -936,7 +944,7 @@
    "lesson_fields": "shorts count: the short leg (COUR) sits beside the S10 AVOID scenario, which held no position; S13 is the position S10 would have been",
    "made": "2026-11-12",
    "mark_status": "scenario (half size), on track",
-   "marked": "2026-11-16",
+   "marked": "2026-11-17",
    "market_prob": "no matching market (Polymarket top-200 by volume checked 12 Nov); sell-side: Coursera cut after Q3 (-19% on the day); blank",
    "note_2026-11-13": "13 Nov: reader entry printed at the New York open (PSO $17.22 long, COUR $3.61 short); book enters at 1.25% a leg (half the quarter-Kelly 2.5%); Coursera's 8-K (10 Nov) cuts 10% of staff after the Udemy merger and guides Q4 below Q3; Chegg -40%; Korea's PM Office opens a probe of a 397.5/400 tax-accountant score (the verification premium); 20-day correlation to the AI basket PSO -0.23, COUR 0.25; no known binary inside five trading days bears on either leg",
    "prob": 0.6,
@@ -955,7 +963,9 @@
    "stop_pct": 12,
    "target_pct": 12,
    "timeframe": "to 2027-02-12 (Coursera Q4 2026 results, early Feb, and Pearson FY2026 results, late Feb; closed on the later print or the stop)",
-   "trigger": "The verification premium: Pearson's Assessment & Qualifications grew 10% in Q3 (22 Oct) while Coursera's Consumer revenue fell 9% on weaker certificate subscriptions (29 Oct) and guided 2027 Consumer down a low double-digit percentage; Korea's 5 Nov government-wide order against smart-glasses cheating and Tasmania's audited secure-assessment standard show the state and university side moving money from content to invigilation"
+   "trigger": "The verification premium: Pearson's Assessment & Qualifications grew 10% in Q3 (22 Oct) while Coursera's Consumer revenue fell 9% on weaker certificate subscriptions (29 Oct) and guided 2027 Consumer down a low double-digit percentage; Korea's 5 Nov government-wide order against smart-glasses cheating and Tasmania's audited secure-assessment standard show the state and university side moving money from content to invigilation",
+   "prev_mark_status": "scenario (half size), on track",
+   "note_2026-11-17": "17 Nov: scenario (half size), on track, avg +0.8% (PSO $17.40 +1.1%; COUR $3.59 short +0.6% at the 16 Nov close); Korea's PM national address (17 Nov) sets the suneung regime two days out (~8,400 extra staff, telecom-data tracing, 10-year retroactive bans, the state taking liability), the clearest state-side spend on verification yet; the suneung cheating count (19-20 Nov) bears on the thesis, not on either leg's price; no known binary inside five trading days bears on either leg; 20-day correlation to the AI basket PSO -0.18, COUR 0.18."
   }
  ]
 }
