@@ -198,5 +198,15 @@
   ],
   "note": "18 Nov run (Wednesday, before the US open); push attempted from the session",
   "sha256": "4824c73e3c0ec65f34655e4316252a4de0ab9f2e7226af265e882ca15366b986"
+ },
+ {
+  "date": "2026-11-19",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "19 Nov run (Thursday, before the US open); push attempted from the session",
+  "sha256": "6b7f421750e142431ca6ad3bdb7fa4283c9504c1c47b10c353c96ff6ae26ebc5"
  }
 ]
