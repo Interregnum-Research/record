@@ -208,5 +208,15 @@
   ],
   "note": "19 Nov run (Thursday, before the US open); push attempted from the session",
   "sha256": "6b7f421750e142431ca6ad3bdb7fa4283c9504c1c47b10c353c96ff6ae26ebc5"
+ },
+ {
+  "date": "2026-11-20",
+  "sha256": "a3becd84cc5bb578f6a56f9e8734e2e8625b1f9b05e796d364e5014ee52cfa4b",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 19 Nov); the same bytes are to be committed to github.com/Interregnum-Research/record as 'record 2026-11-20'."
  }
 ]

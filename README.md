@@ -8,21 +8,21 @@ Every call The Long View's engine makes is written here, dated and fingerprinted
 
 A call is a dated statement that something will happen by a given date, with a probability attached and a condition that would close it early. The probability means what it says: of the calls we make at 70%, about seven in ten should happen. So a miss at 70% is expected about three times in ten, and a single miss or a single hit proves very little on its own. What matters is whether, over many calls, the ones we made at 70% came true about 70% of the time.
 
-A call is scored hit when the stated outcome occurred and the position gained; partial when it occurred in part; miss when neither. The number of closed calls is still small: five have closed as of 18 November 2026, so none of the figures below says much yet about whether the engine is good at this. We publish them anyway, from the start, because a record that begins only once it looks good is not a record.
+A call is scored hit when the stated outcome occurred and the position gained; partial when it occurred in part; miss when neither. The number of closed calls is still small: six have closed as of 20 November 2026, so none of the figures below says much yet about whether the engine is good at this. We publish them anyway, from the start, because a record that begins only once it looks good is not a record.
 
 The paper book is a model portfolio with no real money in it. It is mostly cash by rule, it enters each call at the first price a reader could have traded at after the call was public, and it is kept only to test the calls against a benchmark. It is not a product and not a recommendation. Nothing on this page is investment advice.
 
 ## Where things stand
 
-As of 19 November 2026: fourteen calls made since 21 October 2026; six closed (one hit, two partials, three misses); eight open, of which four are entered at full size, one is waiting on a dated condition, and three are scenarios the engine follows at reduced or no size because its own probability fell short of its publication line (one of them, proposed today, enters tomorrow). How close our probabilities were to what happened (the Brier score) is 0.205 on the six closed calls, a figure that becomes meaningful only after thirty.
+As of 20 November 2026: fourteen calls made since 21 October 2026; six closed (one hit, two partials, three misses); eight open, of which four are entered at full size, one is waiting on a dated condition, and three are scenarios the engine follows at reduced or no size because its own probability fell short of its publication line (the newest, three regulated grid owners, entered at this morning's open). How close our probabilities were to what happened (the Brier score) is 0.205 on the six closed calls, a figure that becomes meaningful only after thirty.
 
-Branch notes and expectations scored: one (the 7 November issue's expectation on China's rare-earth suspension; the other branch happened on 9 November).
+Branch notes and expectations scored: three (the 7 November expectation on China's rare-earth suspension, where the other branch happened; the 14 November expectations on Nvidia's guidance carrying no China revenue and on the Shenzhen meeting producing a safety channel and no chip instrument, both of which happened); one unresolved (the 14 November expectation on British payrolls, because the statistics office did not publish the industry table; scored 15 December).
 
-Private-markets calls: one made (13 November), none yet checked. Industry calls: three made (9 and 12 November), all still under embargo, so they appear below only as an id, a date and a fingerprint; none yet checked; three further candidates were tested on 19 November and none passed.
+Private-markets calls: two made (13 and 20 November), none yet checked. Industry calls: three made (9 and 12 November), all still under embargo, so they appear below only as an id, a date and a fingerprint; none yet checked.
 
-Gap calls: six live, none yet at its check-in date; two candidates tested on 19 November were rejected. Effect predictions on rules: fifteen made, none yet due; the first checks fall on 25 November and 10 December 2026.
+Gap calls: six live, none yet at its check-in date. Effect predictions on rules: fifteen made, none yet due; the first checks fall on 25 November and 10 December 2026.
 
-The paper book stood at 98.47 at the 18 November close for its US holdings (19 November for Europe and India), from 100 at its start on 26 October 2026, a drawdown of 3.0% from its high; over the same days the S&P 500 index rebased to 100 stood at 95.86 and the equal-weight AI basket at 93.16, so the book is 2.61 points ahead of the S&P 500 and 5.31 points ahead of the AI basket. About 81% of the book is cash, earning the three-month Treasury bill rate. The day's cost was the health-insurance holding closed this morning after a proposed Medicare audit rule took 16% off it in two sessions; the rule hit the revenue the insurer books from diagnoses, not the cost line the trade was watching.
+The paper book stood at 97.82 at an intraday mark a few minutes after the New York open on 20 November (the next run restates it at the close), from 100 at its start on 26 October 2026, a drawdown of 3.7% from its high; at the same moment the S&P 500 index rebased to 100 stood at 93.40 and the equal-weight AI basket at 88.21, so the book is 4.42 points ahead of the S&P 500 and 9.61 points ahead of the AI basket. About 79% of the book is cash, earning the three-month Treasury bill rate. The AI basket is 14.9% below its twenty-day high, the deepest drawdown since the record began, and the book's own losses this week came from its turbine maker and its legal-and-data publisher, not from the basket.
 
 ## What we got wrong and what changed
 
@@ -38,7 +38,7 @@ The first monthly review (6 November 2026): of the nine structural themes the en
 
 ## Corrections
 
-Every correction is listed, dated, at the end of record.md under "Corrections"; the latest (18 November 2026) record that the PJM grid filings carried as 'not visible' on 16 and 17 November were filed on time (the engine could not read FERC's library), and list the day's secondary-only items and the two price feeds that failed (the Hang Seng Tech index and the S&P health-care index, replaced by an ETF proxy for one test).
+Every correction is listed, dated, at the end of record.md under "Corrections"; the latest (20 November 2026) correct a line saying Brazil had not responded to the United States' chip rule (its trade ministry had, on 17 November), move the comment deadline on the Medicare audit rule to 19 January 2027, record that the rule's text as read carries no language on AI-assisted coding (that link is the engine's inference), note that today's marks are intraday prints rather than closes, and list the day's secondary-only items.
 
 ## The files
 
