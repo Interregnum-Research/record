@@ -221,12 +221,22 @@
  },
  {
   "date": "2026-11-23",
-  "sha256": "d97c8573c485f8a00ba2f75b1083865b533b71278323f54abbb0153733823919",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 19 Nov); the same bytes are to be committed to github.com/Interregnum-Research/record as 'record 2026-11-23'."
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 19 Nov); the same bytes are to be committed to github.com/Interregnum-Research/record as 'record 2026-11-23'.",
+  "sha256": "d97c8573c485f8a00ba2f75b1083865b533b71278323f54abbb0153733823919"
+ },
+ {
+  "date": "2026-11-24",
+  "sha256": "bd24b46059e678677a2dbf001cfaa4208a60654b1510295d8d1c8bd657804060",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 19 Nov); the same bytes are to be committed to github.com/Interregnum-Research/record as 'record 2026-11-24'."
  }
 ]
