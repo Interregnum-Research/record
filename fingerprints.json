@@ -241,12 +241,22 @@
  },
  {
   "date": "2026-11-25",
-  "sha256": "b03bd77aaccd88ca711916b779086d0c8556229d8510209dc65d11108c2a6877",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "Wednesday run; S02 at risk; the 24 Nov book row restated at the close; three corrections appended."
+  "note": "Wednesday run; S02 at risk; the 24 Nov book row restated at the close; three corrections appended.",
+  "sha256": "b03bd77aaccd88ca711916b779086d0c8556229d8510209dc65d11108c2a6877"
+ },
+ {
+  "date": "2026-11-26",
+  "sha256": "aba043eecd17d7fc65f514ed11b58fd9903c29a1de5131224e45539d6012a1c9",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 25 Nov: no call closed); the same bytes are prepared for github.com/Interregnum-Research/record (26 Nov run)."
  }
 ]
