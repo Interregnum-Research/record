@@ -251,12 +251,22 @@
  },
  {
   "date": "2026-11-26",
-  "sha256": "aba043eecd17d7fc65f514ed11b58fd9903c29a1de5131224e45539d6012a1c9",
   "files": [
    "calls.json",
    "record.md",
    "scorecard.csv"
   ],
-  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 25 Nov: no call closed); the same bytes are prepared for github.com/Interregnum-Research/record (26 Nov run)."
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 25 Nov: no call closed); the same bytes are prepared for github.com/Interregnum-Research/record (26 Nov run).",
+  "sha256": "aba043eecd17d7fc65f514ed11b58fd9903c29a1de5131224e45539d6012a1c9"
+ },
+ {
+  "date": "2026-11-27",
+  "sha256": "254568875ff3413d02a19a3124818964437e0afb330a66f67519024441c5647b",
+  "files": [
+   "calls.json",
+   "record.md",
+   "scorecard.csv"
+  ],
+  "note": "calls.json as JSON indented by one space with a trailing newline, record.md as its markdown text with a trailing newline, scorecard.csv as the CSV text (unchanged from 25 Nov: no call closed); the same bytes are prepared for github.com/Interregnum-Research/record (27 Nov run)."
  }
 ]
